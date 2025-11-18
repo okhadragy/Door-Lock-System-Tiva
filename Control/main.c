@@ -1,21 +1,172 @@
 #include "registers.h"
 
-#define PASSWORD_LENGTH 8
+char buffer[PASSWORD_LENGTH];
+unsigned int bufferIndex = 0;
+int failCount = 0;
+SystemState currentState = STATE_INIT;
+enum SystemActions currentAction;
 
-char passwordBuffer[PASSWORD_LENGTH];
-unsigned int passwordIndex = 0;
-char correctPassword[PASSWORD_LENGTH];
+// Function prototypes
+void StateMachine(void);
+void ResetBuffer(void);
+void comparePassword(const char *pass1, unsigned int pass1_length, const char *pass2, int *result);
+void Buzzer_Init(void);
+void Buzzer_Output(int state);
+void Buzzer_ON(unsigned int durationMs);
+void Timer0A_Init(void);
+void Timer0A_DelayMs(unsigned int ms);
+void Timer0AIntHandler(void);
+void EEPROM_Init(void);
+void EEPROM_WritePassword(const char *pass);
+void EEPROM_ReadPassword(char *pass);
+void convertTimeoutToSec(const char *timeoutStr, unsigned int *timeoutSec, unsigned int *result);
+void EEPROM_WriteTimeout(const unsigned int *timeoutSec);
+void EEPROM_ReadTimeout(unsigned int *timeoutSec);
+void UART0_Init(void);
+void UART0_Transmit(char data);
+void UART0_SendString(const char *str);
+void UART0IntHandler(void);
+void open_Door(void);
 
-int comparePassword(void)
+
+
+void StateMachine(void) {
+    switch (currentState) {
+        case STATE_INIT:
+        case STATE_CHANGE_PASSWORD:
+            if (bufferIndex != PASSWORD_LENGTH) {
+                return;
+            }
+
+            EEPROM_WritePassword(buffer);
+            ResetBuffer();
+            UART0_SendString("S");
+            currentState = STATE_MAIN_MENU;
+            break;
+
+        case STATE_MAIN_MENU:
+            if (bufferIndex != 1) {
+                return;
+            }
+            
+            switch(buffer[0]) {
+                case '+':
+                    currentAction = ACTION_OPEN_DOOR;
+                    UART0_SendString("S");
+                    currentState = STATE_CHECK_PASSWORD;
+                    break;
+                case '-':
+                    currentAction = ACTION_CHANGE_PASSWORD;
+                    UART0_SendString("S");
+                    currentState = STATE_CHECK_PASSWORD;
+                    break;
+                case '*':
+                    currentAction = ACTION_SET_TIMEOUT;
+                    UART0_SendString("S");
+                    currentState = STATE_CHECK_PASSWORD;
+                    break;
+                default:
+                    UART0_SendString("!");
+                    currentState = STATE_MAIN_MENU;
+                    break;
+            }
+            ResetBuffer();
+            break;
+        case STATE_CHECK_PASSWORD:
+            if (bufferIndex != PASSWORD_LENGTH) {
+                return;
+            }
+
+            if (!(currentAction == ACTION_OPEN_DOOR ||
+                currentAction == ACTION_CHANGE_PASSWORD ||
+                currentAction == ACTION_SET_TIMEOUT)) {
+                UART0_SendString("!");
+                ResetBuffer();
+                currentState = STATE_MAIN_MENU;
+                return;
+            }
+
+            char correctPassword[PASSWORD_LENGTH];
+            EEPROM_ReadPassword(correctPassword);
+            unsigned int passwordMatch;
+            comparePassword(buffer, bufferIndex, correctPassword, &passwordMatch);
+            
+            if (passwordMatch) {
+                UART0_SendString("S");
+                if (currentAction == ACTION_OPEN_DOOR) {
+                    open_Door();
+                    UART0_SendString("S");
+                    currentState = STATE_MAIN_MENU;
+                } else if (currentAction == ACTION_CHANGE_PASSWORD) {
+                    currentState = STATE_CHANGE_PASSWORD;
+                } else if (currentAction == ACTION_SET_TIMEOUT) {
+                    currentState = STATE_SET_TIMEOUT;
+                }
+            } else {
+                UART0_SendString("F");
+                failCount++;
+                if (failCount >= MAX_FAILS) {
+                    unsigned int timeoutSec;
+                    Buzzer_ON(5000);
+                    EEPROM_ReadTimeout(&timeoutSec);
+                    Timer0A_DelayMs(timeoutSec * 1000);
+                    currentState = STATE_MAIN_MENU;
+                    failCount = 0;
+                }
+            }
+            ResetBuffer();
+            break;
+        case STATE_SET_TIMEOUT:
+            if (bufferIndex != TIMEOUT_LENGTH) {
+                return;
+            }
+
+            unsigned int timeoutSec;
+            unsigned int conversionResult;
+            convertTimeoutToSec(buffer, &timeoutSec, &conversionResult);
+            if (!conversionResult) {
+                UART0_SendString("!");
+                ResetBuffer();
+                currentState = STATE_MAIN_MENU;
+                break;
+            }
+
+            EEPROM_WriteTimeout(&timeoutSec);
+            ResetBuffer();
+            UART0_SendString("S");
+            currentState = STATE_MAIN_MENU;
+            break;
+        default:
+            break;
+    }
+}
+
+void ResetBuffer(void)
 {
+    for (int i = 0; i < bufferIndex; i++)
+    {
+        buffer[i] = 0;
+    }
+    bufferIndex = 0;
+}
+
+void comparePassword(const char *pass1, const unsigned int pass1_length, const char *pass2, int *result)
+{
+    if (pass1_length != PASSWORD_LENGTH)
+    {
+        *result = 0; // length mismatch
+        return;
+    }
+    
     for (int i = 0; i < PASSWORD_LENGTH; i++)
     {
-        if (passwordBuffer[i] != correctPassword[i])
+        if (pass1[i] != pass2[i])
         {
-            return 0; // mismatch
+            *result = 0; // mismatch
+            return;
         }
     }
-    return 1; // match
+    *result = 1; // match
 }
 
 void Buzzer_Init(void)
@@ -39,6 +190,12 @@ void Buzzer_Output(int state)
     {
         GPIO_PORTE_DATA_R &= ~BUZZER_PIN;
     }
+}
+
+void Buzzer_ON(unsigned int durationMs){
+    Buzzer_Output(1);
+    Timer0A_DelayMs(durationMs); // Buzzer ON for specified duration
+    Buzzer_Output(0);
 }
 
 void Timer0A_Init(void)
@@ -83,7 +240,7 @@ void EEPROM_WritePassword(const char *pass)
     EEPROM_EEOFFSET_R = 0; // Start at offset 0
 
     unsigned int word1 = (pass[3] << 24) | (pass[2] << 16) | (pass[1] << 8) | pass[0];
-    unsigned int word2 = (pass[7] << 24) | (pass[6] << 16) | (pass[5] << 8) | pass[4];
+    unsigned int word2 = (0x00 << 24) | (0x00 << 16) | (0x00 << 8) | pass[4];
 
     EEPROM_EERDWR_R = word1;
     while (EEPROM_EEDONE_R & 0x01)
@@ -108,9 +265,45 @@ void EEPROM_ReadPassword(char *pass)
     pass[2] = (word1 >> 16) & 0xFF;
     pass[3] = (word1 >> 24) & 0xFF;
     pass[4] = word2 & 0xFF;
-    pass[5] = (word2 >> 8) & 0xFF;
-    pass[6] = (word2 >> 16) & 0xFF;
-    pass[7] = (word2 >> 24) & 0xFF;
+}
+
+void convertTimeoutToSec(const char *timeoutStr, unsigned int *timeoutSec, unsigned int *result)
+{
+    *timeoutSec = 0;
+    for (int i = 0; i < TIMEOUT_LENGTH; i++)
+    {
+        if (timeoutStr[i] < '0' || timeoutStr[i] > '9')
+        {
+            *timeoutSec = 0;
+            *result = 0; 
+            return;
+        }
+
+        *timeoutSec = (*timeoutSec * 10) + (timeoutStr[i] - '0');
+    }
+    *result = 1;
+}
+
+void EEPROM_WriteTimeout(const unsigned int *timeoutSec)
+{
+    EEPROM_EEBLOCK_R = 0;
+    EEPROM_EEOFFSET_R = 2; // Offset 2 for timeout
+
+    EEPROM_EERDWR_R = *timeoutSec;
+    while (EEPROM_EEDONE_R & 0x01)
+    {
+    };
+}
+
+void EEPROM_ReadTimeout(unsigned int *timeoutSec)
+{
+    EEPROM_EEBLOCK_R = 0;
+    EEPROM_EEOFFSET_R = 2; // Offset 2 for timeout
+
+    *timeoutSec = EEPROM_EERDWR_R;
+    while (EEPROM_EEDONE_R & 0x01)
+    {
+    };
 }
 
 void UART0_Init(void)
@@ -166,31 +359,19 @@ void UART0IntHandler(void)
         { // Check for any error flags in bits [11:8] OE = Overrun, BE = Break, PE = Parity, FE = Framing)
             if (data & 0x200)
             { // Parity error bit (PE)
-                UART0_Transmit('!');
+                UART0_SendString("!");
             }
         }
         else
         {
-            passwordBuffer[passwordIndex++] = c;
-            if (passwordIndex == PASSWORD_LENGTH)
-            {
-                if (comparePassword())
-                {
-                    UART0_Transmit('1');
-                    GPIO_PORTF_DATA_R |= BLUE_LED;
-                }
-                else
-                {
-                    UART0_Transmit('0');
-                    GPIO_PORTF_DATA_R |= RED_LED;
-                }
-                passwordIndex = 0;
-                Timer0A_DelayMs(2000);
+            if (bufferIndex < sizeof(buffer)) {
+                buffer[bufferIndex++] = c;
+                StateMachine();
+            } else {
+                UART0_SendString("!"); // Buffer overflow
+                ResetBuffer();
             }
-            else
-            {
-                UART0_Transmit('#');
-            }
+            
         }
 
         UART0_ICR_R = 0x10; // Clear RX interrupt flag
@@ -199,56 +380,15 @@ void UART0IntHandler(void)
 
 int main()
 {
-    const char newPassword[] = "12345678";
     EEPROM_Init();
-    EEPROM_WritePassword(newPassword);
-    EEPROM_ReadPassword(correctPassword);
     UART0_Init();
     Timer0A_Init();
     Buzzer_Init();
     enable_gpio(GPIO_PORTF);
     __asm("CPSIE I");
 
-    GPIO_PORTF_DIR_R |= 0x0E;
-    GPIO_PORTF_LOCK_R = 0x4C4F434B;
-    GPIO_PORTF_CR_R |= 0x01;
-    GPIO_PORTF_DEN_R |= 0x1F;
-    GPIO_PORTF_PUR_R |= 0x11;
-
-    int counter = 0;
-    for (char i = '1'; i <= '8'; i++)
-    {
-        passwordBuffer[counter++] = i;
-    }
-
-    if (comparePassword())
-    {
-        GPIO_PORTF_DATA_R |= BLUE_LED;
-    }
-    else
-    {
-        GPIO_PORTF_DATA_R |= RED_LED;
-    }
-
-    Timer0A_DelayMs(1000);
-
     for (;;)
     {
-        unsigned int input = GPIO_PORTF_DATA_R;
-        GPIO_PORTF_DATA_R &= 0;
-
-        if (!(input & SW1))
-        {
-            GPIO_PORTF_DATA_R |= RED_LED;
-        }
-
-        if (!(input & SW2))
-        {
-            GPIO_PORTF_DATA_R |= BLUE_LED;
-        }
-
-        // Timer0A_DelayMs(1000);
-
-        // __asm("      wfi\n");
+        __asm("      wfi\n");
     }
 }
