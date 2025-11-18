@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  27/Oct/2025  00:08:28
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  29/Oct/2025  12:47:43
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -64,23 +64,23 @@ do not initialize { rw section .noinit };
   .intvec          const            0x0  0x26c  startup_ewarm.o [1]
                                 - 0x26c  0x26c
 
-"P1":                                    0x5b4
-  .text            ro code        0x26c  0x418  main.o [1]
-  .text            ro code        0x684   0x76  ABImemcpy_unaligned.o [4]
-  .text            ro code        0x6fa   0x38  zero_init3.o [4]
-  .text            ro code        0x734   0x28  data_init.o [4]
-  .text            ro code        0x75c   0x22  fpinit_M.o [3]
-  .iar.init_table  const          0x780   0x10  - Linker created -
-  .text            ro code        0x790   0x1e  startup_ewarm.o [1]
-  .text            ro code        0x7b0   0x1c  cstartup_M.o [4]
-  .text            ro code        0x7cc   0x1e  cmain.o [4]
-  .text            ro code        0x7ea    0x4  low_level_init.o [2]
-  .text            ro code        0x7ee    0x4  exit.o [2]
-  .text            ro code        0x7f4    0xa  cexit.o [4]
-  .text            ro code        0x800   0x14  exit.o [5]
-  .rodata          const          0x814    0xc  main.o [1]
-  .rodata          const          0x820    0x0  zero_init3.o [4]
-                                - 0x820  0x5b4
+"P1":                                    0x5b8
+  .text            ro code        0x26c  0x41c  main.o [1]
+  .text            ro code        0x688   0x76  ABImemcpy_unaligned.o [4]
+  .text            ro code        0x6fe   0x38  zero_init3.o [4]
+  .text            ro code        0x738   0x28  data_init.o [4]
+  .text            ro code        0x760   0x22  fpinit_M.o [3]
+  .iar.init_table  const          0x784   0x10  - Linker created -
+  .text            ro code        0x794   0x1e  startup_ewarm.o [1]
+  .text            ro code        0x7b4   0x1c  cstartup_M.o [4]
+  .text            ro code        0x7d0   0x1e  cmain.o [4]
+  .text            ro code        0x7ee    0x4  low_level_init.o [2]
+  .text            ro code        0x7f2    0x4  exit.o [2]
+  .text            ro code        0x7f8    0xa  cexit.o [4]
+  .text            ro code        0x804   0x14  exit.o [5]
+  .rodata          const          0x818    0xc  main.o [1]
+  .rodata          const          0x824    0x0  zero_init3.o [4]
+                                - 0x824  0x5b8
 
 "P2", part 1 of 2:                        0x14
   .bss             zero     0x2000'0000    0x8  main.o [1]
@@ -96,7 +96,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x820     0x3'ffff  0x3'f7e0
+        0x824     0x3'ffff  0x3'f7dc
   0x2000'0214  0x2000'7fff    0x7dec
 
 
@@ -123,10 +123,10 @@ command line/config:
     Total:
 
 C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj: [1]
-    main.o                   1'048       12       20
+    main.o                   1'052       12       20
     startup_ewarm.o             30      620      512
     ------------------------------------------------
-    Total:                   1'078      632      532
+    Total:                   1'082      632      532
 
 dl7M_tln.a: [2]
     exit.o                       4
@@ -157,7 +157,7 @@ shb_l.a: [5]
     Gaps                         8        2
     Linker created                       16
 ----------------------------------------------------
-    Grand Total:             1'430      650      532
+    Grand Total:             1'434      650      532
 
 
 *******************************************************************************
@@ -166,44 +166,44 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0x780          --   Gb  - Linker created -
-.iar.init_table$$Limit        0x790          --   Gb  - Linker created -
-?main                         0x7cd         Code  Gb  cmain.o [4]
+.iar.init_table$$Base         0x784          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x794          --   Gb  - Linker created -
+?main                         0x7d1         Code  Gb  cmain.o [4]
 EEPROM_Init                   0x343   0x16  Code  Gb  main.o [1]
 EEPROM_ReadPassword           0x3b1   0x44  Code  Gb  main.o [1]
 EEPROM_WritePassword          0x359   0x58  Code  Gb  main.o [1]
-FaultISR                      0x7ab    0x2  Code  Lc  startup_ewarm.o [1]
-IntDefaultHandler             0x7ad    0x2  Code  Lc  startup_ewarm.o [1]
-NmiSR                         0x7a9    0x2  Code  Lc  startup_ewarm.o [1]
-Region$$Table$$Base           0x780          --   Gb  - Linker created -
-Region$$Table$$Limit          0x790          --   Gb  - Linker created -
-ResetISR                      0x791   0x14  Code  Gb  startup_ewarm.o [1]
+FaultISR                      0x7af    0x2  Code  Lc  startup_ewarm.o [1]
+IntDefaultHandler             0x7b1    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                         0x7ad    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base           0x784          --   Gb  - Linker created -
+Region$$Table$$Limit          0x794          --   Gb  - Linker created -
+ResetISR                      0x795   0x14  Code  Gb  startup_ewarm.o [1]
 Timer0AIntHandler             0x32f   0x14  Code  Gb  main.o [1]
 Timer0A_DelayMs               0x30d   0x22  Code  Gb  main.o [1]
 Timer0A_Init                  0x2ab   0x62  Code  Gb  main.o [1]
 UART0IntHandler               0x489   0x88  Code  Gb  main.o [1]
 UART0_Init                    0x3f5   0x82  Code  Gb  main.o [1]
 UART0_Transmit                0x477   0x12  Code  Gb  main.o [1]
-__cmain                       0x7cd         Code  Gb  cmain.o [4]
-__exit                        0x801   0x14  Code  Gb  exit.o [5]
-__iar_data_init3              0x735   0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp                0x75d         Code  Gb  fpinit_M.o [3]
-__iar_program_start           0x7b1         Code  Gb  cstartup_M.o [4]
-__iar_unaligned_memcpy        0x685         Code  Gb  ABImemcpy_unaligned.o [4]
+__cmain                       0x7d1         Code  Gb  cmain.o [4]
+__exit                        0x805   0x14  Code  Gb  exit.o [5]
+__iar_data_init3              0x739   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x761         Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x7b5         Code  Gb  cstartup_M.o [4]
+__iar_unaligned_memcpy        0x689         Code  Gb  ABImemcpy_unaligned.o [4]
 __iar_unaligned_memcpy4
-                              0x6a5         Code  Gb  ABImemcpy_unaligned.o [4]
+                              0x6a9         Code  Gb  ABImemcpy_unaligned.o [4]
 __iar_unaligned_memcpy8
-                              0x6a5         Code  Gb  ABImemcpy_unaligned.o [4]
-__iar_zero_init3              0x6fb   0x38  Code  Gb  zero_init3.o [4]
-__low_level_init              0x7eb    0x4  Code  Gb  low_level_init.o [2]
+                              0x6a9         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3              0x6ff   0x38  Code  Gb  zero_init3.o [4]
+__low_level_init              0x7ef    0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
-_call_main                    0x7d9         Code  Gb  cmain.o [4]
-_exit                         0x7f5         Code  Gb  cexit.o [4]
+_call_main                    0x7dd         Code  Gb  cmain.o [4]
+_exit                         0x7f9         Code  Gb  cexit.o [4]
 comparePassword               0x289   0x22  Code  Gb  main.o [1]
 correctPassword         0x2000'0008    0x8  Data  Gb  main.o [1]
 enable_gpio                   0x26d   0x1c  Code  Lc  main.o [1]
-exit                          0x7ef    0x4  Code  Gb  exit.o [2]
-main                          0x515   0xd0  Code  Gb  main.o [1]
+exit                          0x7f3    0x4  Code  Gb  exit.o [2]
+main                          0x515   0xd2  Code  Gb  main.o [1]
 passwordBuffer          0x2000'0000    0x8  Data  Gb  main.o [1]
 passwordIndex           0x2000'0010    0x4  Data  Gb  main.o [1]
 pui32Stack              0x2000'0014  0x200  Data  Lc  startup_ewarm.o [1]
@@ -215,7 +215,7 @@ pui32Stack              0x2000'0014  0x200  Data  Lc  startup_ewarm.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  1'430 bytes of readonly  code memory
+  1'434 bytes of readonly  code memory
     650 bytes of readonly  data memory
     532 bytes of readwrite data memory
 
