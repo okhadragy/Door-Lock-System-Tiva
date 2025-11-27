@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "registers.h": "c",
+        "config.h": "c",
+        "uart.h": "c"
+    }
+}

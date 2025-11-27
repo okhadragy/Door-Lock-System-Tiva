@@ -92610,129 +92610,497 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@34@macro@PASSWORD_LENGTH",
+    "ID": "c:@F@Buzzer_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Buzzer_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.c"
+    },
+    "name": "Buzzer_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Buzzer_Output",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Buzzer_Output(int)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.c"
+    },
+    "name": "Buzzer_Output",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Buzzer_ON",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Buzzer_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "28",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.c"
+    },
+    "name": "Buzzer_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@26@macro@CONFIG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CONFIG_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "CONFIG_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@75@macro@GPIO_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTA",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "GPIO_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@107@macro@GPIO_PORTB",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTB",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "GPIO_PORTB",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@139@macro@GPIO_PORTC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTC",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "GPIO_PORTC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@171@macro@GPIO_PORTD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTD",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "GPIO_PORTD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@203@macro@GPIO_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTE",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "GPIO_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@235@macro@GPIO_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "GPIO_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@269@macro@SW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SW2",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "SW2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@299@macro@RED_LED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RED_LED",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "RED_LED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@329@macro@BLUE_LED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BLUE_LED",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "BLUE_LED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@359@macro@GREEN_LED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GREEN_LED",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "GREEN_LED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@389@macro@SW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SW1",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "SW1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@419@macro@BUZZER_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUZZER_PIN",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "BUZZER_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@479@macro@PASSWORD_LENGTH",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PASSWORD_LENGTH",
     "location": {
       "column": "9",
-      "line": "3",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "21",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
     },
     "name": "PASSWORD_LENGTH",
-    "origin": "project_file",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@passwordBuffer",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "passwordBuffer",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
-    },
-    "name": "passwordBuffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@passwordIndex",
-    "What": "Variable",
+    "ID": "c:config.h@506@macro@TIMEOUT_LENGTH",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "passwordIndex",
+    "display": "TIMEOUT_LENGTH",
     "location": {
-      "column": "14",
-      "line": "6",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "column": "9",
+      "line": "22",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
     },
-    "name": "passwordIndex",
-    "origin": "project_file",
+    "name": "TIMEOUT_LENGTH",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@correctPassword",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "correctPassword",
+    "ID": "c:config.h@532@macro@MAX_FAILS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MAX_FAILS",
     "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "column": "9",
+      "line": "23",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
     },
-    "name": "correctPassword",
-    "origin": "project_file",
+    "name": "MAX_FAILS",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@comparePassword",
+    "ID": "c:@EA@SystemState",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SystemState@STATE_INIT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "STATE_INIT",
+        "location": {
+          "column": "5",
+          "line": "25",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "STATE_INIT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SystemState@STATE_MAIN_MENU",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "STATE_MAIN_MENU",
+        "location": {
+          "column": "5",
+          "line": "26",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "STATE_MAIN_MENU",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SystemState@STATE_CHECK_PASSWORD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "STATE_CHECK_PASSWORD",
+        "location": {
+          "column": "5",
+          "line": "27",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "STATE_CHECK_PASSWORD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SystemState@STATE_OPEN_DOOR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "STATE_OPEN_DOOR",
+        "location": {
+          "column": "5",
+          "line": "28",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "STATE_OPEN_DOOR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SystemState@STATE_CHANGE_PASSWORD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "STATE_CHANGE_PASSWORD",
+        "location": {
+          "column": "5",
+          "line": "29",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "STATE_CHANGE_PASSWORD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SystemState@STATE_SET_TIMEOUT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "STATE_SET_TIMEOUT",
+        "location": {
+          "column": "5",
+          "line": "30",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "STATE_SET_TIMEOUT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SystemState@STATE_TIMEOUT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "STATE_TIMEOUT",
+        "location": {
+          "column": "5",
+          "line": "31",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "STATE_TIMEOUT",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@SystemState",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum SystemState",
+    "location": {
+      "column": "3",
+      "line": "32",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "SystemState",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@SystemActions",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@SystemActions@ACTION_OPEN_DOOR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ACTION_OPEN_DOOR",
+        "location": {
+          "column": "5",
+          "line": "35",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "ACTION_OPEN_DOOR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SystemActions@ACTION_CHANGE_PASSWORD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ACTION_CHANGE_PASSWORD",
+        "location": {
+          "column": "5",
+          "line": "36",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "ACTION_CHANGE_PASSWORD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@SystemActions@ACTION_SET_TIMEOUT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ACTION_SET_TIMEOUT",
+        "location": {
+          "column": "5",
+          "line": "37",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+        },
+        "name": "ACTION_SET_TIMEOUT",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@SystemActions",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum SystemActions",
+    "location": {
+      "column": "3",
+      "line": "38",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
+    },
+    "name": "SystemActions",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:config.h@F@enable_gpio",
     "What": "Function",
     "defdec": "Def",
-    "display": "int comparePassword(void)",
+    "display": "void enable_gpio(unsigned int)",
     "location": {
-      "column": "5",
-      "line": "9",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "column": "20",
+      "line": "40",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
     },
-    "name": "comparePassword",
-    "origin": "project_file",
+    "name": "enable_gpio",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:main.c@207@F@comparePassword@i",
+    "ID": "c:config.h@950@F@enable_gpio@delay",
     "What": "Variable",
     "defdec": "Def",
-    "display": "i",
+    "display": "delay",
     "location": {
-      "column": "14",
-      "line": "10",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "column": "27",
+      "line": "42",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\config.h"
     },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0A_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Timer0A_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
-    },
-    "name": "Timer0A_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0A_DelayMs",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Timer0A_DelayMs(unsigned int)",
-    "location": {
-      "column": "6",
-      "line": "30",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
-    },
-    "name": "Timer0A_DelayMs",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0AIntHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Timer0AIntHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "37",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
-    },
-    "name": "Timer0AIntHandler",
-    "origin": "project_file",
+    "name": "delay",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -92742,8 +93110,8 @@
     "display": "void EEPROM_Init(void)",
     "location": {
       "column": "6",
-      "line": "42",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "3",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
     },
     "name": "EEPROM_Init",
     "origin": "project_file",
@@ -92756,36 +93124,36 @@
     "display": "void EEPROM_WritePassword(const char *)",
     "location": {
       "column": "6",
-      "line": "47",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "10",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
     },
     "name": "EEPROM_WritePassword",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1407@F@EEPROM_WritePassword@word1",
+    "ID": "c:eeprom.c@305@F@EEPROM_WritePassword@word1",
     "What": "Variable",
     "defdec": "Def",
     "display": "word1",
     "location": {
       "column": "18",
-      "line": "51",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "15",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
     },
     "name": "word1",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1495@F@EEPROM_WritePassword@word2",
+    "ID": "c:eeprom.c@393@F@EEPROM_WritePassword@word2",
     "What": "Variable",
     "defdec": "Def",
     "display": "word2",
     "location": {
       "column": "18",
-      "line": "52",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "16",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
     },
     "name": "word2",
     "origin": "project_file",
@@ -92798,38 +93166,570 @@
     "display": "void EEPROM_ReadPassword(char *)",
     "location": {
       "column": "6",
-      "line": "61",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "28",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
     },
     "name": "EEPROM_ReadPassword",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1849@F@EEPROM_ReadPassword@word1",
+    "ID": "c:eeprom.c@761@F@EEPROM_ReadPassword@word1",
     "What": "Variable",
     "defdec": "Def",
     "display": "word1",
     "location": {
       "column": "18",
-      "line": "64",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "32",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
     },
     "name": "word1",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1920@F@EEPROM_ReadPassword@word2",
+    "ID": "c:eeprom.c@832@F@EEPROM_ReadPassword@word2",
     "What": "Variable",
     "defdec": "Def",
     "display": "word2",
     "location": {
       "column": "18",
-      "line": "66",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "34",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
     },
     "name": "word2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@convertTimeoutToSec",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void convertTimeoutToSec(const char *, unsigned int *, unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "43",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
+    },
+    "name": "convertTimeoutToSec",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:eeprom.c@1178@F@convertTimeoutToSec@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "46",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_WriteTimeout",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EEPROM_WriteTimeout(const unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "60",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
+    },
+    "name": "EEPROM_WriteTimeout",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_ReadTimeout",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EEPROM_ReadTimeout(unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.c"
+    },
+    "name": "EEPROM_ReadTimeout",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:eeprom.h@26@macro@EEPROM_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EEPROM_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_WritePassword",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_WritePassword(const char *)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_WritePassword",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_WritePassword",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_WritePassword(const char *)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_WritePassword",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_ReadPassword",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_ReadPassword(char *)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_ReadPassword",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_ReadPassword",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_ReadPassword(char *)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_ReadPassword",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@convertTimeoutToSec",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void convertTimeoutToSec(const char *, unsigned int *, unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "convertTimeoutToSec",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@convertTimeoutToSec",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void convertTimeoutToSec(const char *, unsigned int *, unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "convertTimeoutToSec",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_WriteTimeout",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_WriteTimeout(const unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_WriteTimeout",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_WriteTimeout",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_WriteTimeout(const unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_WriteTimeout",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_ReadTimeout",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_ReadTimeout(unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_ReadTimeout",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EEPROM_ReadTimeout",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EEPROM_ReadTimeout(unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\eeprom.h"
+    },
+    "name": "EEPROM_ReadTimeout",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:buzzer.h@26@macro@BUZZER_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUZZER_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.h"
+    },
+    "name": "BUZZER_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Buzzer_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Buzzer_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.h"
+    },
+    "name": "Buzzer_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Buzzer_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Buzzer_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.h"
+    },
+    "name": "Buzzer_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Buzzer_Output",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Buzzer_Output(int)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.h"
+    },
+    "name": "Buzzer_Output",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Buzzer_Output",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Buzzer_Output(int)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.h"
+    },
+    "name": "Buzzer_Output",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Buzzer_ON",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Buzzer_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.h"
+    },
+    "name": "Buzzer_ON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Buzzer_ON",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Buzzer_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\buzzer.h"
+    },
+    "name": "Buzzer_ON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@25@macro@TIMER_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
+    },
+    "name": "TIMER_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Timer0A_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
+    },
+    "name": "Timer0A_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Timer0A_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
+    },
+    "name": "Timer0A_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_DelayMs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Timer0A_DelayMs(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
+    },
+    "name": "Timer0A_DelayMs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_DelayMs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Timer0A_DelayMs(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
+    },
+    "name": "Timer0A_DelayMs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0AIntHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Timer0AIntHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
+    },
+    "name": "Timer0AIntHandler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0AIntHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Timer0AIntHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
+    },
+    "name": "Timer0AIntHandler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:motor.h@25@macro@MOTOR_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MOTOR_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
+    },
+    "name": "MOTOR_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@open_Door",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void open_Door(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
+    },
+    "name": "open_Door",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@open_Door",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void open_Door(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
+    },
+    "name": "open_Door",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@open_Door",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void open_Door(void)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.c"
+    },
+    "name": "open_Door",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0A_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.c"
+    },
+    "name": "Timer0A_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_DelayMs",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0A_DelayMs(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.c"
+    },
+    "name": "Timer0A_DelayMs",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0AIntHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0AIntHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.c"
+    },
+    "name": "Timer0AIntHandler",
     "origin": "project_file",
     "scope": null
   },
@@ -92840,8 +93740,8 @@
     "display": "void UART0_Init(void)",
     "location": {
       "column": "6",
-      "line": "78",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "4",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.c"
     },
     "name": "UART0_Init",
     "origin": "project_file",
@@ -92854,8 +93754,8 @@
     "display": "void UART0_Transmit(char)",
     "location": {
       "column": "6",
-      "line": "103",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "30",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.c"
     },
     "name": "UART0_Transmit",
     "origin": "project_file",
@@ -92868,8 +93768,8 @@
     "display": "void UART0_SendString(const char *)",
     "location": {
       "column": "6",
-      "line": "108",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "38",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.c"
     },
     "name": "UART0_SendString",
     "origin": "project_file",
@@ -92882,39 +93782,543 @@
     "display": "void UART0IntHandler(void)",
     "location": {
       "column": "6",
-      "line": "114",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "46",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.c"
     },
     "name": "UART0IntHandler",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@3295@F@UART0IntHandler@data",
+    "ID": "c:uart.c@1153@F@UART0IntHandler@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
     "location": {
       "column": "22",
-      "line": "116",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "50",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.c"
     },
     "name": "data",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@3362@F@UART0IntHandler@c",
+    "ID": "c:uart.c@1220@F@UART0IntHandler@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "14",
-      "line": "117",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
+      "line": "51",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.c"
     },
     "name": "c",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:uart.h@24@macro@UART_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART0_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART0_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_Transmit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_Transmit(char)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART0_Transmit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_Transmit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_Transmit(char)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART0_Transmit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_SendString(const char *)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART0_SendString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_SendString(const char *)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART0_SendString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0IntHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0IntHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART0IntHandler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0IntHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0IntHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
+    },
+    "name": "UART0IntHandler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:buffer.h@26@macro@BUFFER_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUFFER_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.h"
+    },
+    "name": "BUFFER_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@buffer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "buffer",
+    "location": {
+      "column": "13",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.h"
+    },
+    "name": "buffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bufferIndex",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bufferIndex",
+    "location": {
+      "column": "21",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.h"
+    },
+    "name": "bufferIndex",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bufferIndex",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bufferIndex",
+    "location": {
+      "column": "21",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.h"
+    },
+    "name": "bufferIndex",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ResetBuffer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ResetBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.h"
+    },
+    "name": "ResetBuffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ResetBuffer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ResetBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.h"
+    },
+    "name": "ResetBuffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@buffer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "buffer",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.c"
+    },
+    "name": "buffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@bufferIndex",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bufferIndex",
+    "location": {
+      "column": "14",
+      "line": "4",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.c"
+    },
+    "name": "bufferIndex",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ResetBuffer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ResetBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.c"
+    },
+    "name": "ResetBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:buffer.c@123@F@ResetBuffer@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@failCount",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "failCount",
+    "location": {
+      "column": "5",
+      "line": "10",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "failCount",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@currentState",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "currentState",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "currentState",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@currentAction",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "currentAction",
+    "location": {
+      "column": "15",
+      "line": "12",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "currentAction",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@StateMachine",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void StateMachine(void)",
+    "location": {
+      "column": "6",
+      "line": "14",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "StateMachine",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:statemachine.c@2197@F@StateMachine@correctPassword",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "correctPassword",
+    "location": {
+      "column": "18",
+      "line": "70",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "correctPassword",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:statemachine.c@2300@F@StateMachine@passwordMatch",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "passwordMatch",
+    "location": {
+      "column": "26",
+      "line": "72",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "passwordMatch",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:statemachine.c@3120@F@StateMachine@timeoutSec",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timeoutSec",
+    "location": {
+      "column": "34",
+      "line": "90",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "timeoutSec",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:statemachine.c@3603@F@StateMachine@timeoutSec",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timeoutSec",
+    "location": {
+      "column": "26",
+      "line": "105",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "timeoutSec",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:statemachine.c@3641@F@StateMachine@conversionResult",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "conversionResult",
+    "location": {
+      "column": "26",
+      "line": "106",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
+    },
+    "name": "conversionResult",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@comparePassword",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void comparePassword(const char *, const unsigned int, const char *, unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\passowrd.c"
+    },
+    "name": "comparePassword",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:passowrd.c@272@F@comparePassword@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "11",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\passowrd.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:password.h@28@macro@PASSWORD_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PASSWORD_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\password.h"
+    },
+    "name": "PASSWORD_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@comparePassword",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void comparePassword(const char *, unsigned int, const char *, unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\password.h"
+    },
+    "name": "comparePassword",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@comparePassword",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void comparePassword(const char *, unsigned int, const char *, unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\password.h"
+    },
+    "name": "comparePassword",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:statemachine.h@32@macro@STATEMACHINE_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATEMACHINE_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.h"
+    },
+    "name": "STATEMACHINE_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@StateMachine",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void StateMachine(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.h"
+    },
+    "name": "StateMachine",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@StateMachine",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void StateMachine(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.h"
+    },
+    "name": "StateMachine",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -92924,263 +94328,11 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "144",
+      "line": "7",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
     },
     "name": "main",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@4288@F@main@newPassword",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "newPassword",
-    "location": {
-      "column": "14",
-      "line": "146",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
-    },
-    "name": "newPassword",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@4674@F@main@counter",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "counter",
-    "location": {
-      "column": "7",
-      "line": "162",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
-    },
-    "name": "counter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@4699@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "13",
-      "line": "163",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@4944@F@main@input",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "input",
-    "location": {
-      "column": "20",
-      "line": "176",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
-    },
-    "name": "input",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@29@macro@REGISTERS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "REGISTERS_H",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "REGISTERS_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@81@macro@GPIO_PORTA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTA",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "GPIO_PORTA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@113@macro@GPIO_PORTB",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTB",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "GPIO_PORTB",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@145@macro@GPIO_PORTC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTC",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "GPIO_PORTC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@177@macro@GPIO_PORTD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTD",
-    "location": {
-      "column": "9",
-      "line": "9",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "GPIO_PORTD",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@209@macro@GPIO_PORTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTE",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "GPIO_PORTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@241@macro@GPIO_PORTF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTF",
-    "location": {
-      "column": "9",
-      "line": "11",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "GPIO_PORTF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@275@macro@SW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SW2",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "SW2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@304@macro@RED_LED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RED_LED",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "RED_LED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@333@macro@BLUE_LED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BLUE_LED",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "BLUE_LED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@362@macro@GREEN_LED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GREEN_LED",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "GREEN_LED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@391@macro@SW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SW1",
-    "location": {
-      "column": "9",
-      "line": "17",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "SW1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@F@enable_gpio",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void enable_gpio(unsigned int)",
-    "location": {
-      "column": "20",
-      "line": "19",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "enable_gpio",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:registers.h@513@F@enable_gpio@delay",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "delay",
-    "location": {
-      "column": "27",
-      "line": "21",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\registers.h"
-    },
-    "name": "delay",
-    "origin": "user_include",
     "scope": null
   },
   {

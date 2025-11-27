@@ -1,5 +1,5 @@
-#ifndef REGISTERS_H
-#define REGISTERS_H
+#ifndef CONFIG_H
+#define CONFIG_H
 
 #include "tm4c123gh6pm.h"
 

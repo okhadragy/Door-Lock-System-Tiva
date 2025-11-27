@@ -2842,12 +2842,36 @@
         </settings>
     </configuration>
     <group>
-        <name>Headers</name>
+        <name>Drivers</name>
         <file>
-            <name>$PROJ_DIR$\registers.h</name>
+            <name>$PROJ_DIR$\Drivers\buzzer.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\tm4c123gh6pm.h</name>
+            <name>$PROJ_DIR$\Drivers\buzzer.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\eeprom.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\eeprom.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\motor.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\motor.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\timer.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\timer.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\uart.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\uart.h</name>
         </file>
     </group>
     <group>
@@ -3183,10 +3207,37 @@
             <name>$PROJ_DIR$\inc\tm4c129xnczad.h</name>
         </file>
     </group>
+    <group>
+        <name>Logic</name>
+        <file>
+            <name>$PROJ_DIR$\logic\buffer.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\logic\buffer.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\logic\passowrd.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\logic\password.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\logic\statemachine.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\logic\statemachine.h</name>
+        </file>
+    </group>
+    <file>
+        <name>$PROJ_DIR$\config.h</name>
+    </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\startup_ewarm.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\tm4c123gh6pm.h</name>
     </file>
 </project>
