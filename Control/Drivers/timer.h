@@ -4,6 +4,5 @@
 
 void Timer0A_Init(void);
 void Timer0A_DelayMs(unsigned int ms);
-void Timer0AIntHandler(void);
 
 #endif
