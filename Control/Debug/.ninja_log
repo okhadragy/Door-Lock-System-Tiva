@@ -43,3 +43,14 @@
 1429	1597	7859776597553083	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
 1614	1740	7859776599036012	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	8fa44125c9b0015a
 1614	1740	7859776599036012	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/List/Control.map	8fa44125c9b0015a
+251	1029	7870925602579590	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/timer.o	8dab19c7ffb38013
+259	1043	7870925602579590	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
+9	1052	7870925602579590	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
+255	1059	7870925602579590	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/buzzer.o	8cf19c4c16d521e0
+1039	1132	7870925603714029	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/startup_ewarm.o	c1bd612fb197831a
+1139	1498	7870925607413580	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	32fb0bc11362d6a7
+53	456	7870953845298296	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
+27	463	7870953845325876	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
+14	473	7870953845298296	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/buffer.o	9cc3a206803d2811
+37	494	7870953845626486	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/uart.o	9332e07c1fba3f94
+499	581	7870953846633582	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	32fb0bc11362d6a7

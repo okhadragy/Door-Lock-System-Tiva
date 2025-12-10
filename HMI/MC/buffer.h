@@ -1,9 +1,8 @@
-#ifndef BUFFER_H_
-#define BUFFER_H_
+#ifndef BUFFER_H
+#define BUFFER_H
+#include "../config.h"
 
-#define BUFFER_SIZE 5
-
-extern char BUFFER[BUFFER_SIZE];
+extern char BUFFER[PASSWORD_LENGTH];
 extern unsigned int bufferIndex;
 
 void ResetBuffer(void);

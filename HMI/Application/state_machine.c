@@ -1,10 +1,10 @@
 #include "state_machine.h"
-#include "LCD.h"
-#include "keypad.h"
-#include "UART_DRIVER.h"
-#include "buffer.h"
-#include "poteniometer.h"
-#include "SysTick_Driver.h"
+#include "../HW/LCD.h"
+#include "../HW/keypad.h"
+#include "../MC/uart.h"
+#include "../MC/buffer.h"
+#include "../HW/potentiometer.h"
+#include "../MC/SysTick_Driver.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -45,7 +45,7 @@ static void enterPassword()
     SysTick_DelayMs(2);
     LCD_writeOrMenu("Enter Password:");
 
-    memset(PASSWORD, 0, PASSWORD_LEN);
+    char PASSWORD[PASSWORD_LENGTH];
 
     while(i < PASSWORD_LEN)
     {
@@ -53,12 +53,12 @@ static void enterPassword()
         if(k != 0)
         {
             PASSWORD[i] = k;
-            LCD_writeOrMenu('*');
+            LCD_writeOrMenu("*");
             i++;
         }
     }
 
-    UART0_SEND_STRING(PASSWORD);
+    UART0_Send_String(PASSWORD);
 
     ResetBuffer();
 }
@@ -122,21 +122,21 @@ void STATE_MACHINE()
         if(k == '+')
         {
             lastAction = '+';
-            UART0_SEND_CHAR('+');
+            UART0_Send_String("+");
             ResetBuffer();
             CURRENT_STATE = SEND_ACTION_WAIT_ACK;
         }
         else if(k == '-')
         {
             lastAction = '-';
-            UART0_SEND_CHAR('-');
+            UART0_Send_String("-");
             ResetBuffer();
             CURRENT_STATE = SEND_ACTION_WAIT_ACK;
         }
         else if(k == '*')
         {
             lastAction = '*';
-            UART0_SEND_CHAR('*');
+            UART0_Send_String("*");
             ResetBuffer();
             CURRENT_STATE = SEND_ACTION_WAIT_ACK;
         }
@@ -243,10 +243,10 @@ void STATE_MACHINE()
         if(kk == '*')
         {
             // Send two ASCII digits (tens and units). Adjust if tt can exceed 99.
-            UART0_SEND_CHAR((tt/1000)+ '0');
-            UART0_SEND_CHAR((tt/100)+ '0');
-            UART0_SEND_CHAR((tt/10) + '0');
-            UART0_SEND_CHAR((tt%1000) + '0');
+            UART0_Transmit((tt/1000)+ '0');
+            UART0_Transmit((tt/100)+ '0');
+            UART0_Transmit((tt/10) + '0');
+            UART0_Transmit((tt%1000) + '0');
 
   
             ResetBuffer();
@@ -267,7 +267,7 @@ void STATE_MACHINE()
         SysTick_DelayMs(2);
         LCD_writeOrMenu("Enter New Password:");
 
-        memset(PASSWORD, 0, PASSWORD_LEN);
+        char PASSWORD[PASSWORD_LENGTH];
 
         {
             int i = 0;
@@ -288,7 +288,7 @@ void STATE_MACHINE()
             }
         }
         
-        UART0_SEND_STRING(PASSWORD);
+        UART0_Send_String(PASSWORD);
 
         ResetBuffer();
         CURRENT_STATE = WAIT_SAVE_RESPONSE;

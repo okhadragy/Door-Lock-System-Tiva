@@ -1,0 +1,143 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Application\state_machine.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Application\state_machine.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\Application" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\keypad.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\keypad.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\HW" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\LCD.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\LCD.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\HW" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\potentiometer.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\potentiometer.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\HW" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\buffer.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\buffer.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\MC" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\SysTick_Driver.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\SysTick_Driver.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\MC" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\timer.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\timer.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\MC" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\uart.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\uart.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\MC" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\main.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\main.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\startup_ewarm.c" -xcl_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.xcl" -macro_file "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\startup_ewarm.c" -o "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.tmp"
+  rspfile_name = C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.xcl.rsp
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Application\state_machine.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\keypad.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\LCD.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\HW\potentiometer.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\buffer.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\SysTick_Driver.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\timer.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\MC\uart.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\main.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.pbi : INDEXER C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.xcl |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\startup_ewarm.c
+  flags = "-out=C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.pbi" -f "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.xcl"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI.pbw : MAKEBROWSE C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI.pbd
+  flags = "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI.pbd" -output "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI.pbw"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part0.pbi : PDBLINK C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.pbi |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.pbi $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.pbi
+  flags = -M "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part0.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\LCD.pbi"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part1.pbi : PDBLINK C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.pbi |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.pbi $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.pbi
+  flags = -M "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part1.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HW\potentiometer.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\buffer.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\SysTick_Driver.pbi"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part2.pbi : PDBLINK C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.pbi |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.pbi $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.pbi
+  flags = -M "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part2.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\timer.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\MC\uart.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\main.pbi"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part3.pbi : PDBLINK C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.pbi
+  flags = -M "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part3.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\startup_ewarm.pbi"
+
+build C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI.pbd : PDBLINK C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part0.pbi |  $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part1.pbi $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part2.pbi $
+C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part3.pbi
+  flags = -M "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI.pbd" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part0.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part1.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part2.pbi" "C$:\main\Computer$ Engineering\Level$ 5\Intro$ to$ Embedded$ Systems\Project\HMI\Debug\BrowseInfo\HMI_part3.pbi"
+

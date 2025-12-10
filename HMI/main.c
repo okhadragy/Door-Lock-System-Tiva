@@ -1,11 +1,11 @@
 // New HMI main that initializes drivers and runs the Application state machine
-#include "state_machine.h"
-#include "LCD.h"
-#include "keypad.h"
-#include "UART_DRIVER.h"
-#include "buffer.h"
-#include "poteniometer.h"
-#include "SysTick_Driver.h"
+#include "./Application/state_machine.h"
+#include "./HW/LCD.h"
+#include "./HW/keypad.h"
+#include "./MC/uart.h"
+#include "./MC/buffer.h"
+#include "./HW/potentiometer.h"
+#include "./MC/SysTick_Driver.h"
 #include "tm4c123gh6pm.h"
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
     LCD_init();        
     Pot_Init();
     keypad_init();
-    UART0_INIT();
+    UART0_Init();
 
     ResetBuffer();
 
@@ -24,10 +24,8 @@ int main(void)
     __asm("CPSIE I");
 
     // Main loop: run the HMI state machine which reacts to keypad and UART
-    while (1)
+    for (;;)
     {
         STATE_MACHINE();
     }
-
-    return 0;
 }

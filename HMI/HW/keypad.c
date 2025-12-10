@@ -1,4 +1,5 @@
-#include "tm4c123gh6pm.h"
+#include "../tm4c123gh6pm.h"
+#include "../MC/SysTick_Driver.h"
 #include "stdint.h"
 #include "keypad.h"
 #include <stdbool.h>
@@ -42,7 +43,7 @@ unsigned char readKeypad(void)
         // Write only R4-R7 bits without touching other bits
         GPIO_PORTC_DATA_R = (GPIO_PORTC_DATA_R & ~0xF0) | row_mask[row];
 
-        delayMs(2);
+        SysTick_DelayMs(2);
 
         uint8_t col = GPIO_PORTE_DATA_R & 0x0F;
 

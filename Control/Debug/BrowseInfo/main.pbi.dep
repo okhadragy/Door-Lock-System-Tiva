@@ -1,9 +1,10 @@
 C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Debug\BrowseInfo\main.pbi: \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Logic\statemachine.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\buzzer.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\timer.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\uart.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\..\tm4c123gh6pm.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Logic\..\config.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\eeprom.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\main.c
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\main.c \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Drivers/eeprom.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Drivers/../config.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/tm4c123gh6pm.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Drivers/uart.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Drivers/timer.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Drivers/buzzer.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Logic/statemachine.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Logic/../config.h

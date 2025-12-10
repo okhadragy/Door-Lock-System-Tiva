@@ -2,7 +2,7 @@
 #define BUFFER_H
 #include "../config.h"
 
-extern char buffer[PASSWORD_LENGTH];
+extern char BUFFER[PASSWORD_LENGTH];
 extern unsigned int bufferIndex;
 
 void ResetBuffer(void);

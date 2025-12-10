@@ -93608,34 +93608,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Timer0AIntHandler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Timer0AIntHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
-    },
-    "name": "Timer0AIntHandler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0AIntHandler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Timer0AIntHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.h"
-    },
-    "name": "Timer0AIntHandler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:motor.h@25@macro@MOTOR_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -93712,24 +93684,10 @@
     "display": "void Timer0A_DelayMs(unsigned int)",
     "location": {
       "column": "6",
-      "line": "18",
+      "line": "14",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.c"
     },
     "name": "Timer0A_DelayMs",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0AIntHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Timer0AIntHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "26",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\timer.c"
-    },
-    "name": "Timer0AIntHandler",
     "origin": "project_file",
     "scope": null
   },
@@ -93762,16 +93720,16 @@
     "scope": null
   },
   {
-    "ID": "c:@F@UART0_SendString",
+    "ID": "c:@F@UART0_Send_String",
     "What": "Function",
     "defdec": "Def",
-    "display": "void UART0_SendString(const char *)",
+    "display": "void UART0_Send_String(const char *)",
     "location": {
       "column": "6",
       "line": "38",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.c"
     },
-    "name": "UART0_SendString",
+    "name": "UART0_Send_String",
     "origin": "project_file",
     "scope": null
   },
@@ -93790,7 +93748,7 @@
     "scope": null
   },
   {
-    "ID": "c:uart.c@1153@F@UART0IntHandler@data",
+    "ID": "c:uart.c@1154@F@UART0IntHandler@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
@@ -93804,7 +93762,7 @@
     "scope": null
   },
   {
-    "ID": "c:uart.c@1220@F@UART0IntHandler@c",
+    "ID": "c:uart.c@1221@F@UART0IntHandler@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
@@ -93888,30 +93846,30 @@
     "scope": null
   },
   {
-    "ID": "c:@F@UART0_SendString",
+    "ID": "c:@F@UART0_Send_String",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void UART0_SendString(const char *)",
+    "display": "void UART0_Send_String(const char *)",
     "location": {
       "column": "6",
       "line": "7",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
     },
-    "name": "UART0_SendString",
+    "name": "UART0_Send_String",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@UART0_SendString",
+    "ID": "c:@F@UART0_Send_String",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void UART0_SendString(const char *)",
+    "display": "void UART0_Send_String(const char *)",
     "location": {
       "column": "6",
       "line": "7",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\uart.h"
     },
-    "name": "UART0_SendString",
+    "name": "UART0_Send_String",
     "origin": "user_include",
     "scope": null
   },
@@ -93958,16 +93916,16 @@
     "scope": null
   },
   {
-    "ID": "c:@buffer",
+    "ID": "c:@BUFFER",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "buffer",
+    "display": "BUFFER",
     "location": {
       "column": "13",
       "line": "5",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.h"
     },
-    "name": "buffer",
+    "name": "BUFFER",
     "origin": "user_include",
     "scope": null
   },
@@ -94028,16 +93986,16 @@
     "scope": null
   },
   {
-    "ID": "c:@buffer",
+    "ID": "c:@BUFFER",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "buffer",
+    "display": "BUFFER",
     "location": {
       "column": "6",
       "line": "3",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\buffer.c"
     },
-    "name": "buffer",
+    "name": "BUFFER",
     "origin": "project_file",
     "scope": null
   },
@@ -94140,7 +94098,7 @@
     "scope": null
   },
   {
-    "ID": "c:statemachine.c@2197@F@StateMachine@correctPassword",
+    "ID": "c:statemachine.c@2203@F@StateMachine@correctPassword",
     "What": "Variable",
     "defdec": "Def",
     "display": "correctPassword",
@@ -94154,7 +94112,7 @@
     "scope": null
   },
   {
-    "ID": "c:statemachine.c@2300@F@StateMachine@passwordMatch",
+    "ID": "c:statemachine.c@2306@F@StateMachine@passwordMatch",
     "What": "Variable",
     "defdec": "Def",
     "display": "passwordMatch",
@@ -94168,7 +94126,7 @@
     "scope": null
   },
   {
-    "ID": "c:statemachine.c@3120@F@StateMachine@timeoutSec",
+    "ID": "c:statemachine.c@3129@F@StateMachine@timeoutSec",
     "What": "Variable",
     "defdec": "Def",
     "display": "timeoutSec",
@@ -94182,13 +94140,13 @@
     "scope": null
   },
   {
-    "ID": "c:statemachine.c@3603@F@StateMachine@timeoutSec",
+    "ID": "c:statemachine.c@3657@F@StateMachine@timeoutSec",
     "What": "Variable",
     "defdec": "Def",
     "display": "timeoutSec",
     "location": {
       "column": "26",
-      "line": "105",
+      "line": "106",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
     },
     "name": "timeoutSec",
@@ -94196,13 +94154,13 @@
     "scope": null
   },
   {
-    "ID": "c:statemachine.c@3641@F@StateMachine@conversionResult",
+    "ID": "c:statemachine.c@3695@F@StateMachine@conversionResult",
     "What": "Variable",
     "defdec": "Def",
     "display": "conversionResult",
     "location": {
       "column": "26",
-      "line": "106",
+      "line": "107",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
     },
     "name": "conversionResult",
@@ -95134,20 +95092,6 @@
     "scope": null
   },
   {
-    "ID": "c:stdint.h@T@__data_intptr_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "int",
-    "location": {
-      "column": "1",
-      "line": "89",
-      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
-    },
-    "name": "__data_intptr_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:stdint.h@T@__data_uintptr_t",
     "What": "Typedef",
     "defdec": "Def",
@@ -95158,6 +95102,20 @@
       "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
     },
     "name": "__data_uintptr_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdint.h@T@__data_intptr_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int",
+    "location": {
+      "column": "1",
+      "line": "89",
+      "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
+    },
+    "name": "__data_intptr_t",
     "origin": "system_include",
     "scope": null
   },
@@ -107347,246 +107305,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@ResetISR",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ResetISR(void)",
-    "location": {
-      "column": "6",
-      "line": "42",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "ResetISR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@F@NmiSR",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void NmiSR(void)",
-    "location": {
-      "column": "13",
-      "line": "43",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "NmiSR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@F@FaultISR",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FaultISR(void)",
-    "location": {
-      "column": "13",
-      "line": "44",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "FaultISR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@F@IntDefaultHandler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IntDefaultHandler(void)",
-    "location": {
-      "column": "13",
-      "line": "45",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "IntDefaultHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0AIntHandler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Timer0AIntHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "46",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "Timer0AIntHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART0IntHandler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART0IntHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "47",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "UART0IntHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_program_start",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_program_start(void)",
-    "location": {
-      "column": "13",
-      "line": "54",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "__iar_program_start",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@pui32Stack",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "pui32Stack",
-    "location": {
-      "column": "17",
-      "line": "61",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "pui32Stack",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@UA@uVectorEntry",
-    "What": "Union",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "70",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "members": [
-      {
-        "ID": "c:@UA@uVectorEntry@FI@pfnHandler",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "pfnHandler",
-        "location": {
-          "column": "12",
-          "line": "72",
-          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-        },
-        "name": "pfnHandler",
-        "origin": "project_file",
-        "scope": "_anonymous_startup_ewarm_c_70_9"
-      },
-      {
-        "ID": "c:@UA@uVectorEntry@FI@ui32Ptr",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ui32Ptr",
-        "location": {
-          "column": "14",
-          "line": "73",
-          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-        },
-        "name": "ui32Ptr",
-        "origin": "project_file",
-        "scope": "_anonymous_startup_ewarm_c_70_9"
-      }
-    ],
-    "name": "",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@uVectorEntry",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "union uVectorEntry",
-    "location": {
-      "column": "1",
-      "line": "75",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "uVectorEntry",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@__vector_table",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "__vector_table",
-    "location": {
-      "column": "27",
-      "line": "83",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "__vector_table",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ResetISR",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ResetISR(void)",
-    "location": {
-      "column": "1",
-      "line": "254",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "ResetISR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@F@NmiSR",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void NmiSR(void)",
-    "location": {
-      "column": "1",
-      "line": "284",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "NmiSR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@F@FaultISR",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void FaultISR(void)",
-    "location": {
-      "column": "1",
-      "line": "302",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "FaultISR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@F@IntDefaultHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void IntDefaultHandler(void)",
-    "location": {
-      "column": "1",
-      "line": "320",
-      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
-    },
-    "name": "IntDefaultHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:DLib_Defaults.h@1169@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -107962,6 +107680,232 @@
     },
     "name": "__WEAK_DEFS",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ResetISR",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ResetISR(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "ResetISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@NmiSR",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void NmiSR(void)",
+    "location": {
+      "column": "13",
+      "line": "43",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "NmiSR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@FaultISR",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FaultISR(void)",
+    "location": {
+      "column": "13",
+      "line": "44",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "FaultISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@IntDefaultHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IntDefaultHandler(void)",
+    "location": {
+      "column": "13",
+      "line": "45",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "IntDefaultHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0IntHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0IntHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "46",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "UART0IntHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_program_start",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_program_start(void)",
+    "location": {
+      "column": "13",
+      "line": "53",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "__iar_program_start",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@pui32Stack",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "pui32Stack",
+    "location": {
+      "column": "17",
+      "line": "60",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "pui32Stack",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@uVectorEntry",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@uVectorEntry@FI@pfnHandler",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "pfnHandler",
+        "location": {
+          "column": "12",
+          "line": "71",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+        },
+        "name": "pfnHandler",
+        "origin": "project_file",
+        "scope": "_anonymous_startup_ewarm_c_69_9"
+      },
+      {
+        "ID": "c:@UA@uVectorEntry@FI@ui32Ptr",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ui32Ptr",
+        "location": {
+          "column": "14",
+          "line": "72",
+          "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+        },
+        "name": "ui32Ptr",
+        "origin": "project_file",
+        "scope": "_anonymous_startup_ewarm_c_69_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@uVectorEntry",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "union uVectorEntry",
+    "location": {
+      "column": "1",
+      "line": "74",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "uVectorEntry",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@__vector_table",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "__vector_table",
+    "location": {
+      "column": "27",
+      "line": "82",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "__vector_table",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ResetISR",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ResetISR(void)",
+    "location": {
+      "column": "1",
+      "line": "253",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "ResetISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@NmiSR",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void NmiSR(void)",
+    "location": {
+      "column": "1",
+      "line": "283",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "NmiSR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@FaultISR",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FaultISR(void)",
+    "location": {
+      "column": "1",
+      "line": "301",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "FaultISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@IntDefaultHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IntDefaultHandler(void)",
+    "location": {
+      "column": "1",
+      "line": "319",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\startup_ewarm.c"
+    },
+    "name": "IntDefaultHandler",
+    "origin": "project_file",
     "scope": null
   },
   {

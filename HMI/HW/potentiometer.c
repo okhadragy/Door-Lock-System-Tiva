@@ -1,6 +1,5 @@
-#include "poteniometer.h"
-#include "tm4c123gh6pm.h"
-#include "statemachine.h"
+#include "potentiometer.h"
+
 void Pot_Init(void) {
     SYSCTL_RCGCADC_R |= 1;
     SYSCTL_RCGCGPIO_R |= 2;
@@ -23,4 +22,3 @@ void Pot_Read_Timeout(unsigned int *timeout) {
     ADC0_ISC_R = 8;
     *timeout = 5 + ((ADC0_SSFIFO3_R * 25) / 4095);
 }
-

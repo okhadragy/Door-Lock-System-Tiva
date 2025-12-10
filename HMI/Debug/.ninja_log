@@ -1,0 +1,26 @@
+# ninja log v5
+355	474	7870934012538936	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/buffer.o	8e73d708f99e9058
+11	221	7870935533304168	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/keypad.o	d3bb4ab543087382
+30	437	7870941494077137	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/timer.o	79ff85eb505927bc
+383	482	7870941494753899	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/startup_ewarm.o	22344c1375165536
+417	533	7870941495252062	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
+7	146	7870954626631849	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/uart.o	7e377b1e1ae21b60
+12	159	7870954626631849	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/buffer.o	8e73d708f99e9058
+109	246	7870954627578101	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/potentiometer.o	b796076b2d88d8b0
+15	420	7870960427562925	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/SysTick_Driver.o	f0ebb3f542b781a
+44	431	7870960427562925	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
+1	444	7870960427687486	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/LCD.o	d8f811eef69a3402
+371	1202	7870965862130908	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
+1	1392	7870965864065664	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/Application/state_machine.o	73e33d1cfafa38fe
+4	108	7870966235677072	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
+1	84	7870966410080604	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
+22	357	7870977070331976	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/LCD.o	d8f811eef69a3402
+243	367	7870977070422660	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
+7	394	7870977070739327	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/SysTick_Driver.o	f0ebb3f542b781a
+27	426	7870977071044570	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/Application/state_machine.o	73e33d1cfafa38fe
+2	135	7870978538822892	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/potentiometer.o	b796076b2d88d8b0
+28	529	7870982751952225	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/keypad.o	d3bb4ab543087382
+4	554	7870982752267526	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/potentiometer.o	b796076b2d88d8b0
+6	112	7870983104289020	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
+1	151	7870983104697031	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/Application/state_machine.o	73e33d1cfafa38fe
+159	242	7870983105739024	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Exe/HMI.out	831518dd744010f9

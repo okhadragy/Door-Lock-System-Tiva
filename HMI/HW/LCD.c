@@ -1,6 +1,6 @@
-#include "tm4c123gh6pm.h"
+#include "../tm4c123gh6pm.h"
 #include <stdint.h>
-#include "SysTick_Driver.h"
+#include "../MC/SysTick_Driver.h"
 
 
 
@@ -138,24 +138,3 @@ void LCD_init() {
     LCD_command(0x06);             // Entry mode, cursor moves right
 }
 
-// ---------- MAIN ----------
-
-int main(void) {
-    // 1. INITIALIZE SYSTICK FIRST!
-    SysTick_Init(); 
-
-    // 2. Initialize LCD
-    LCD_init();
-
-    // 3. Main Loop
-    LCD_command(0x01);       // Clear
-    SysTick_DelayMs(2);
-    //LCD_printString("Enter Password:");
-    // LCD_printString("123444444444");
-    //LCD_writeOrMenu(0);
-    LCD_writeOrMenu("Enter Password:");
-    LCD_writeOrMenu("1234567891234567");
-    while(1) {
-        // Empty loop
-    }
-}

@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\Control\Control.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\HMI\HMI.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

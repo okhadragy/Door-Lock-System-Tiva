@@ -19,9 +19,9 @@ void StateMachine(void) {
                 return;
             }
 
-            EEPROM_WritePassword(buffer);
+            EEPROM_WritePassword(BUFFER);
             ResetBuffer();
-            UART0_SendString("S");
+            UART0_Send_String("S");
             currentState = STATE_MAIN_MENU;
             break;
 
@@ -30,24 +30,24 @@ void StateMachine(void) {
                 return;
             }
             
-            switch(buffer[0]) {
+            switch(BUFFER[0]) {
                 case '+':
                     currentAction = ACTION_OPEN_DOOR;
-                    UART0_SendString("S");
+                    UART0_Send_String("S");
                     currentState = STATE_CHECK_PASSWORD;
                     break;
                 case '-':
                     currentAction = ACTION_CHANGE_PASSWORD;
-                    UART0_SendString("S");
+                    UART0_Send_String("S");
                     currentState = STATE_CHECK_PASSWORD;
                     break;
                 case '*':
                     currentAction = ACTION_SET_TIMEOUT;
-                    UART0_SendString("S");
+                    UART0_Send_String("S");
                     currentState = STATE_CHECK_PASSWORD;
                     break;
                 default:
-                    UART0_SendString("!");
+                    UART0_Send_String("!");
                     currentState = STATE_MAIN_MENU;
                     break;
             }
@@ -61,7 +61,7 @@ void StateMachine(void) {
             if (!(currentAction == ACTION_OPEN_DOOR ||
                 currentAction == ACTION_CHANGE_PASSWORD ||
                 currentAction == ACTION_SET_TIMEOUT)) {
-                UART0_SendString("!");
+                UART0_Send_String("!");
                 ResetBuffer();
                 currentState = STATE_MAIN_MENU;
                 return;
@@ -70,13 +70,13 @@ void StateMachine(void) {
             char correctPassword[PASSWORD_LENGTH];
             EEPROM_ReadPassword(correctPassword);
             unsigned int passwordMatch;
-            comparePassword(buffer, bufferIndex, correctPassword, &passwordMatch);
+            comparePassword(BUFFER, bufferIndex, correctPassword, &passwordMatch);
             
             if (passwordMatch) {
-                UART0_SendString("S");
+                UART0_Send_String("S");
                 if (currentAction == ACTION_OPEN_DOOR) {
                     open_Door();
-                    UART0_SendString("S");
+                    UART0_Send_String("S");
                     currentState = STATE_MAIN_MENU;
                 } else if (currentAction == ACTION_CHANGE_PASSWORD) {
                     currentState = STATE_CHANGE_PASSWORD;
@@ -84,14 +84,14 @@ void StateMachine(void) {
                     currentState = STATE_SET_TIMEOUT;
                 }
             } else {
-                UART0_SendString("F");
+                UART0_Send_String("F");
                 failCount++;
                 if (failCount >= MAX_FAILS) {
                     unsigned int timeoutSec;
                     Buzzer_ON(5000);
                     EEPROM_ReadTimeout(&timeoutSec);
                     Timer0A_DelayMs(timeoutSec * 1000);
-                    UART0_SendString("S");
+                    UART0_Send_String("S");
                     currentState = STATE_MAIN_MENU;
                     failCount = 0;
                 }
@@ -105,9 +105,9 @@ void StateMachine(void) {
 
             unsigned int timeoutSec;
             unsigned int conversionResult;
-            convertTimeoutToSec(buffer, &timeoutSec, &conversionResult);
+            convertTimeoutToSec(BUFFER, &timeoutSec, &conversionResult);
             if (!conversionResult) {
-                UART0_SendString("!");
+                UART0_Send_String("!");
                 ResetBuffer();
                 currentState = STATE_MAIN_MENU;
                 break;
@@ -115,7 +115,7 @@ void StateMachine(void) {
 
             EEPROM_WriteTimeout(&timeoutSec);
             ResetBuffer();
-            UART0_SendString("S");
+            UART0_Send_String("S");
             currentState = STATE_MAIN_MENU;
             break;
         default:

@@ -1,12 +1,13 @@
 #include "buffer.h"
 
-char BUFFER[BUFFER_SIZE];
+char BUFFER[PASSWORD_LENGTH];
 unsigned int bufferIndex = 0;
 
 void ResetBuffer(void)
 {
-    for (unsigned int i = 0; i < bufferIndex; i++)
+    for (int i = 0; i < bufferIndex; i++)
+    {
         BUFFER[i] = 0;
-
+    }
     bufferIndex = 0;
 }

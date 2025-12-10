@@ -35,7 +35,7 @@ void UART0_Transmit(char data)
     UART0_DR_R = data;
 }
 
-void UART0_SendString(const char *str)
+void UART0_Send_String(const char *str)
 {
     while (*str)
     {
@@ -54,15 +54,15 @@ void UART0IntHandler(void)
         { // Check for any error flags in bits [11:8] OE = Overrun, BE = Break, PE = Parity, FE = Framing)
             if (data & 0x200)
             { // Parity error bit (PE)
-                UART0_SendString("!");
+                UART0_Send_String("!");
             }
         }
         else
         {
-            if (bufferIndex < sizeof(buffer)) {
-                buffer[bufferIndex++] = c;
+            if (bufferIndex < sizeof(BUFFER)) {
+                BUFFER[bufferIndex++] = c;
             } else {
-                UART0_SendString("!"); // Buffer overflow
+                UART0_Send_String("!"); // Buffer overflow
                 ResetBuffer();
             }
             
