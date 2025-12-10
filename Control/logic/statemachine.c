@@ -77,6 +77,8 @@ void StateMachine(void) {
                 if (currentAction == ACTION_OPEN_DOOR) {
                     open_Door();
                     UART0_Send_String("S");
+                    Timer0A_DelayMs(3000); // wait 3 seconds to close door again
+                    close_Door();
                     currentState = STATE_MAIN_MENU;
                 } else if (currentAction == ACTION_CHANGE_PASSWORD) {
                     currentState = STATE_CHANGE_PASSWORD;

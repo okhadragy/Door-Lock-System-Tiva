@@ -271,7 +271,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10 7 4 0 112 139 140</file>
+                    <file> 10 7 3 4 0 112 139 140</file>
                 </tool>
             </inputs>
         </file>

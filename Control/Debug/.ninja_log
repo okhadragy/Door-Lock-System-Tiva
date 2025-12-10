@@ -54,3 +54,10 @@
 14	473	7870953845298296	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/buffer.o	9cc3a206803d2811
 37	494	7870953845626486	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/uart.o	9332e07c1fba3f94
 499	581	7870953846633582	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	32fb0bc11362d6a7
+26	284	7870998365828597	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
+11	317	7870998366164272	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
+21	326	7870998366266853	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
+11	131	7870999304755166	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
+15	138	7870999304755166	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
+2	155	7870999304897940	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
+161	219	7870999305672351	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	32fb0bc11362d6a7

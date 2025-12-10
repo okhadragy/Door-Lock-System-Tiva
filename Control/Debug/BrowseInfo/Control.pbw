@@ -93622,13 +93622,41 @@
     "scope": null
   },
   {
+    "ID": "c:@F@initialize_motor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void initialize_motor(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
+    },
+    "name": "initialize_motor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@initialize_motor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void initialize_motor(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
+    },
+    "name": "initialize_motor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@open_Door",
     "What": "Function",
     "defdec": "Dec",
     "display": "void open_Door(void)",
     "location": {
       "column": "6",
-      "line": "5",
+      "line": "6",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
     },
     "name": "open_Door",
@@ -93642,11 +93670,67 @@
     "display": "void open_Door(void)",
     "location": {
       "column": "6",
-      "line": "5",
+      "line": "6",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
     },
     "name": "open_Door",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@close_Door",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void close_Door(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
+    },
+    "name": "close_Door",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@close_Door",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void close_Door(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.h"
+    },
+    "name": "close_Door",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@initialize_motor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void initialize_motor(void)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.c"
+    },
+    "name": "initialize_motor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:motor.c@165@F@initialize_motor@dummy",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dummy",
+    "location": {
+      "column": "18",
+      "line": "8",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.c"
+    },
+    "name": "dummy",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -93656,10 +93740,24 @@
     "display": "void open_Door(void)",
     "location": {
       "column": "6",
-      "line": "3",
+      "line": "34",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.c"
     },
     "name": "open_Door",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@close_Door",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void close_Door(void)",
+    "location": {
+      "column": "6",
+      "line": "38",
+      "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\Drivers\\motor.c"
+    },
+    "name": "close_Door",
     "origin": "project_file",
     "scope": null
   },
@@ -94126,13 +94224,13 @@
     "scope": null
   },
   {
-    "ID": "c:statemachine.c@3129@F@StateMachine@timeoutSec",
+    "ID": "c:statemachine.c@3246@F@StateMachine@timeoutSec",
     "What": "Variable",
     "defdec": "Def",
     "display": "timeoutSec",
     "location": {
       "column": "34",
-      "line": "90",
+      "line": "92",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
     },
     "name": "timeoutSec",
@@ -94140,13 +94238,13 @@
     "scope": null
   },
   {
-    "ID": "c:statemachine.c@3657@F@StateMachine@timeoutSec",
+    "ID": "c:statemachine.c@3774@F@StateMachine@timeoutSec",
     "What": "Variable",
     "defdec": "Def",
     "display": "timeoutSec",
     "location": {
       "column": "26",
-      "line": "106",
+      "line": "108",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
     },
     "name": "timeoutSec",
@@ -94154,13 +94252,13 @@
     "scope": null
   },
   {
-    "ID": "c:statemachine.c@3695@F@StateMachine@conversionResult",
+    "ID": "c:statemachine.c@3812@F@StateMachine@conversionResult",
     "What": "Variable",
     "defdec": "Def",
     "display": "conversionResult",
     "location": {
       "column": "26",
-      "line": "107",
+      "line": "109",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\logic\\statemachine.c"
     },
     "name": "conversionResult",
@@ -94286,7 +94384,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "7",
+      "line": "8",
       "path": "C:\\main\\Computer Engineering\\Level 5\\Intro to Embedded Systems\\Project\\Control\\main.c"
     },
     "name": "main",
