@@ -95,8 +95,8 @@ void StateMachine(void) {
                     // unsigned int timeoutSec; // OLD
                     // EEPROM_ReadTimeout(&timeoutSec); // OLD
                     // Timer0A_DelayMs(timeoutSec * 1000); // OLD
-                    Buzzer_ON(3000); // NEW: ADJUSTED TO 3 SECONDS
-                    Timer0A_DelayMs(3000); // NEW
+                    Buzzer_ON(5000); // NEW: ADJUSTED TO 3 SECONDS
+                    Timer0A_DelayMs(5000); // NEW
                     UART0_Send_String("S");
                     currentState = STATE_MAIN_MENU;
                     failCount = 0;
