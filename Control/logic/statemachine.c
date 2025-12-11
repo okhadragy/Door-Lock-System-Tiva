@@ -77,7 +77,10 @@ void StateMachine(void) {
                 if (currentAction == ACTION_OPEN_DOOR) {
                     open_Door();
                     UART0_Send_String("S");
-                    Timer0A_DelayMs(3000); // wait 3 seconds to close door again
+                    // Timer0A_DelayMs(3000); // OLD: wait 3 seconds to close door again
+                    unsigned int timeoutSec; // NEW
+                    EEPROM_ReadTimeout(&timeoutSec); // NEW
+                    Timer0A_DelayMs(timeoutSec * 1000); // NEW
                     close_Door();
                     currentState = STATE_MAIN_MENU;
                 } else if (currentAction == ACTION_CHANGE_PASSWORD) {
@@ -89,10 +92,11 @@ void StateMachine(void) {
                 UART0_Send_String("F");
                 failCount++;
                 if (failCount >= MAX_FAILS) {
-                    unsigned int timeoutSec;
-                    Buzzer_ON(5000);
-                    EEPROM_ReadTimeout(&timeoutSec);
-                    Timer0A_DelayMs(timeoutSec * 1000);
+                    // unsigned int timeoutSec; // OLD
+                    // EEPROM_ReadTimeout(&timeoutSec); // OLD
+                    // Timer0A_DelayMs(timeoutSec * 1000); // OLD
+                    Buzzer_ON(3000); // NEW: ADJUSTED TO 3 SECONDS
+                    Timer0A_DelayMs(3000); // NEW
                     UART0_Send_String("S");
                     currentState = STATE_MAIN_MENU;
                     failCount = 0;

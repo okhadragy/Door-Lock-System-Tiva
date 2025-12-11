@@ -1,5 +1,5 @@
 #include "uart.h"
-#include "buffer.h"
+#include "../logic/buffer.h"
 
 void UART0_Init(void)
 {
@@ -15,9 +15,9 @@ void UART0_Init(void)
     // disable UART to reconfigure
     UART0_CTL_R &= ~0x01;
 
-    // configure 9600 baud rate
-    UART0_IBRD_R = 104;
-    UART0_FBRD_R = 11;
+    // 115200 baud
+    UART0_IBRD_R = 8;
+    UART0_FBRD_R = 43;
 
     UART0_LCRH_R = 0x76;  // 8-bit, even parity, FIFO enabled
     UART0_CTL_R |= 0x301; // Enable RXE, TXE, UART
@@ -45,28 +45,26 @@ void UART0_Send_String(const char *str)
 
 void UART0IntHandler(void)
 {
-    if (UART0_MIS_R & 0x10)
-    {                                   // check RX interrupt flag = bit 4
-        unsigned int data = UART0_DR_R; // Read data + error bits
-        char c = data & 0xFF;           // Extract received byte (lowest 8 bits)
+    // if (UART0_MIS_R & 0x10) // check RX interrupt flag = bit 4
+    unsigned int data = UART0_DR_R; // Read data + error bits
+    char c = data & 0xFF;           // Extract received byte (lowest 8 bits)
 
-        if (data & 0xF00)
-        { // Check for any error flags in bits [11:8] OE = Overrun, BE = Break, PE = Parity, FE = Framing)
-            if (data & 0x200)
-            { // Parity error bit (PE)
-                UART0_Send_String("!");
-            }
+    if (data & 0xF00)
+    { // Check for any error flags in bits [11:8] OE = Overrun, BE = Break, PE = Parity, FE = Framing)
+        if (data & 0x200)
+        { // Parity error bit (PE)
+            UART0_Send_String("!");
         }
-        else
-        {
-            if (bufferIndex < sizeof(BUFFER)) {
-                BUFFER[bufferIndex++] = c;
-            } else {
-                UART0_Send_String("!"); // Buffer overflow
-                ResetBuffer();
-            }
-            
-        }
-        UART0_ICR_R = 0x10; // Clear RX interrupt flag
     }
+    else
+    {
+        if (bufferIndex < sizeof(BUFFER)) {
+            BUFFER[bufferIndex++] = c;
+        } else {
+            UART0_Send_String("!"); // Buffer overflow
+            ResetBuffer();
+        }
+        
+    }
+    UART0_ICR_R = 0x10; // Clear RX interrupt flag
 }
