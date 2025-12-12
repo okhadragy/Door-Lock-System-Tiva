@@ -93824,7 +93824,7 @@
     "display": "void UART0_Transmit(char)",
     "location": {
       "column": "6",
-      "line": "30",
+      "line": "31",
       "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\Drivers\\uart.c"
     },
     "name": "UART0_Transmit",
@@ -93838,7 +93838,7 @@
     "display": "void UART0_Send_String(const char *)",
     "location": {
       "column": "6",
-      "line": "38",
+      "line": "39",
       "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\Drivers\\uart.c"
     },
     "name": "UART0_Send_String",
@@ -93852,7 +93852,7 @@
     "display": "void UART0IntHandler(void)",
     "location": {
       "column": "6",
-      "line": "46",
+      "line": "47",
       "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\Drivers\\uart.c"
     },
     "name": "UART0IntHandler",
@@ -93860,13 +93860,13 @@
     "scope": null
   },
   {
-    "ID": "c:uart.c@1097@F@UART0IntHandler@data",
+    "ID": "c:uart.c@1123@F@UART0IntHandler@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
     "location": {
       "column": "18",
-      "line": "49",
+      "line": "50",
       "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\Drivers\\uart.c"
     },
     "name": "data",
@@ -93874,13 +93874,13 @@
     "scope": null
   },
   {
-    "ID": "c:uart.c@1160@F@UART0IntHandler@c",
+    "ID": "c:uart.c@1186@F@UART0IntHandler@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "10",
-      "line": "50",
+      "line": "51",
       "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\Drivers\\uart.c"
     },
     "name": "c",
@@ -94014,34 +94014,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@comparePassword",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void comparePassword(const char *, const unsigned int, const char *, unsigned int *)",
-    "location": {
-      "column": "6",
-      "line": "3",
-      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\passowrd.c"
-    },
-    "name": "comparePassword",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:passowrd.c@272@F@comparePassword@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "14",
-      "line": "11",
-      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\passowrd.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:uart.h@24@macro@UART_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94168,90 +94140,6 @@
     "scope": null
   },
   {
-    "ID": "c:buffer.h@26@macro@BUFFER_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BUFFER_H",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
-    },
-    "name": "BUFFER_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@BUFFER",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "BUFFER",
-    "location": {
-      "column": "13",
-      "line": "5",
-      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
-    },
-    "name": "BUFFER",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@bufferIndex",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "bufferIndex",
-    "location": {
-      "column": "21",
-      "line": "6",
-      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
-    },
-    "name": "bufferIndex",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@bufferIndex",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "bufferIndex",
-    "location": {
-      "column": "21",
-      "line": "6",
-      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
-    },
-    "name": "bufferIndex",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ResetBuffer",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ResetBuffer(void)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
-    },
-    "name": "ResetBuffer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ResetBuffer",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ResetBuffer(void)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
-    },
-    "name": "ResetBuffer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:password.h@28@macro@PASSWORD_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94347,6 +94235,118 @@
     },
     "name": "i",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@comparePassword",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void comparePassword(const char *, const unsigned int, const char *, unsigned int *)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\passowrd.c"
+    },
+    "name": "comparePassword",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:passowrd.c@272@F@comparePassword@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "11",
+      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\passowrd.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:buffer.h@26@macro@BUFFER_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUFFER_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
+    },
+    "name": "BUFFER_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@BUFFER",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "BUFFER",
+    "location": {
+      "column": "13",
+      "line": "5",
+      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
+    },
+    "name": "BUFFER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bufferIndex",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bufferIndex",
+    "location": {
+      "column": "21",
+      "line": "6",
+      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
+    },
+    "name": "bufferIndex",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bufferIndex",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bufferIndex",
+    "location": {
+      "column": "21",
+      "line": "6",
+      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
+    },
+    "name": "bufferIndex",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ResetBuffer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ResetBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
+    },
+    "name": "ResetBuffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ResetBuffer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ResetBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "D:\\College\\Fall 2025\\Introduction to Embedded Systems\\Project\\Door-Lock-System-Tiva\\Control\\logic\\buffer.h"
+    },
+    "name": "ResetBuffer",
+    "origin": "user_include",
     "scope": null
   },
   {

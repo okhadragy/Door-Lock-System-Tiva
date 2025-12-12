@@ -1,6 +1,7 @@
 D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Debug\BrowseInfo\Drivers\uart.pbi: \
-  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers\..\logic\buffer.h \
-  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers\..\tm4c123gh6pm.h \
-  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers\..\logic\..\config.h \
-  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers\uart.h \
-  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers\uart.c
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers\uart.c \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers/uart.h \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers/../config.h \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers/../tm4c123gh6pm.h \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers/../logic/buffer.h \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\Control\Drivers/../logic/../config.h
