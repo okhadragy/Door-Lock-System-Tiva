@@ -2478,6 +2478,24 @@
             <name>$PROJ_DIR$\MC\uart.h</name>
         </file>
     </group>
+    <group>
+        <name>Tests</name>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_buffer.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_functions.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_functions.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_systick.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_timer.c</name>
+        </file>
+    </group>
     <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>

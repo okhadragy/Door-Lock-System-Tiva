@@ -1,12 +1,12 @@
-C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\HMI\Debug\BrowseInfo\HW\keypad.pbi: \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\HMI\HW\keypad.c \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\HMI\HW/../tm4c123gh6pm.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\HMI\HW/../MC/SysTick_Driver.h \
+D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\HMI\Debug\BrowseInfo\HW\keypad.pbi: \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\HMI\HW\keypad.c \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\HMI\HW/../tm4c123gh6pm.h \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\HMI\HW/../MC/SysTick_Driver.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\HMI\HW/keypad.h \
+  D:\College\Fall\ 2025\Introduction\ to\ Embedded\ Systems\Project\Door-Lock-System-Tiva\HMI\HW/keypad.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h

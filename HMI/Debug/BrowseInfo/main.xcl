@@ -1,15 +1,15 @@
-"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\main.c"
+"D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\HMI\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\BrowseInfo\main.pbi.dep
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\HMI\Debug\BrowseInfo\main.pbi.dep
 -o
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\BrowseInfo\main.pbi
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\HMI\Debug\BrowseInfo\main.pbi
 -I
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\HMI
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I

@@ -5,6 +5,9 @@ void EEPROM_Init(void)
     SYSCTL_RCGCEEPROM_R |= 1;
     while (EEPROM_EEDONE_R & 0x01)
         ; // Wait until not working
+
+    unsigned int def = 5; // DEFAULT BEFORE FIRST SET: 5
+    EEPROM_WriteTimeout(&def);
 }
 
 void EEPROM_WritePassword(const char *pass)

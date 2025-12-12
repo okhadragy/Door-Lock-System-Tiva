@@ -1,15 +1,15 @@
-"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Application\state_machine.c"
+"D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\HMI\Application\state_machine.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.pbi.dep
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\HMI\Debug\BrowseInfo\Application\state_machine.pbi.dep
 -o
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.pbi
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\HMI\Debug\BrowseInfo\Application\state_machine.pbi
 -I
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Application
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\HMI\Application
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I

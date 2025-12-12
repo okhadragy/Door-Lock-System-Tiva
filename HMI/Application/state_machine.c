@@ -243,10 +243,14 @@ void STATE_MACHINE()
         if(kk == '*')
         {
             // Send two ASCII digits (tens and units). Adjust if tt can exceed 99.
-            UART0_Transmit((tt/1000)+ '0');
-            UART0_Transmit((tt/100)+ '0');
+
+            // UART0_Transmit((tt/1000)+ '0'); // OLD
+            // UART0_Transmit((tt/100)+ '0'); // OLD
+            // UART0_Transmit((tt/10) + '0'); // OLD
+            // UART0_Transmit((tt%1000) + '0'); // OLD
+
             UART0_Transmit((tt/10) + '0');
-            UART0_Transmit((tt%1000) + '0');
+            UART0_Transmit((tt%10)+ '0');
 
   
             ResetBuffer();

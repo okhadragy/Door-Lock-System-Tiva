@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\settings\Control.Debug.general.xcl" --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\settings\Control.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\Control\settings\Control.Debug.general.xcl" --backend -f "D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\Control\settings\Control.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\settings\Control.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\settings\Control.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\Control\settings\Control.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\Control\settings\Control.Debug.driver.xcl" 
 }

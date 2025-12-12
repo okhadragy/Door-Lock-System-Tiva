@@ -1,217 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>2327153657</fileChecksum>
+    <fileChecksum>591882221</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Drivers\uart.h</file>
-            <file>$PROJ_DIR$\inc\asmdefs.h</file>
-            <file>$PROJ_DIR$\Drivers\motor.c</file>
-            <file>$PROJ_DIR$\Drivers\motor.h</file>
-            <file>$PROJ_DIR$\Drivers\timer.h</file>
-            <file>$PROJ_DIR$\Drivers\uart.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Tests\test_functions.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Tests\test_motor.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Tests\test_timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Tests\test_buzzer.o</file>
             <file>$PROJ_DIR$\Drivers\timer.c</file>
-            <file>$PROJ_DIR$\Drivers\eeprom.h</file>
             <file>$PROJ_DIR$\Drivers\eeprom.c</file>
+            <file>$PROJ_DIR$\Drivers\eeprom.h</file>
             <file>$PROJ_DIR$\Drivers\buzzer.c</file>
             <file>$PROJ_DIR$\Drivers\buzzer.h</file>
-            <file>$PROJ_DIR$\inc\hw_ccm.h</file>
-            <file>$PROJ_DIR$\inc\hw_qei.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1230c3pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1231c3pm.h</file>
-            <file>$PROJ_DIR$\inc\hw_adc.h</file>
-            <file>$PROJ_DIR$\inc\hw_hibernate.h</file>
-            <file>$PROJ_DIR$\inc\hw_lcd.h</file>
-            <file>$PROJ_DIR$\inc\sc4cc231e6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1231d5pm.h</file>
-            <file>$PROJ_DIR$\inc\hw_gpio.h</file>
-            <file>$PROJ_DIR$\inc\sc4cb297nczad.h</file>
-            <file>$PROJ_DIR$\inc\hw_sysexc.h</file>
-            <file>$PROJ_DIR$\inc\sc4ce290ncpz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1231d5pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1231e6pm.h</file>
-            <file>$PROJ_DIR$\inc\hw_usb.h</file>
-            <file>$PROJ_DIR$\inc\hw_epi.h</file>
-            <file>$PROJ_DIR$\inc\sc4ce93xh6pm.h</file>
-            <file>$PROJ_DIR$\inc\hw_des.h</file>
-            <file>$PROJ_DIR$\inc\hw_comp.h</file>
-            <file>$PROJ_DIR$\inc\hw_aes.h</file>
-            <file>$PROJ_DIR$\inc\hw_can.h</file>
-            <file>$PROJ_DIR$\inc\hw_i2c.h</file>
-            <file>$PROJ_DIR$\inc\hw_pwm.h</file>
-            <file>$PROJ_DIR$\inc\hw_types.h</file>
-            <file>$PROJ_DIR$\inc\hw_flash.h</file>
+            <file>$PROJ_DIR$\Drivers\motor.c</file>
+            <file>$PROJ_DIR$\Drivers\motor.h</file>
+            <file>$PROJ_DIR$\Drivers\uart.c</file>
+            <file>$PROJ_DIR$\Drivers\uart.h</file>
+            <file>$PROJ_DIR$\Drivers\timer.h</file>
             <file>$PROJ_DIR$\inc\hw_nvic.h</file>
-            <file>$PROJ_DIR$\inc\hw_sysctl.h</file>
-            <file>$PROJ_DIR$\inc\hw_fan.h</file>
-            <file>$PROJ_DIR$\inc\hw_timer.h</file>
-            <file>$PROJ_DIR$\inc\hw_emac.h</file>
-            <file>$PROJ_DIR$\inc\hw_eeprom.h</file>
-            <file>$PROJ_DIR$\inc\hw_shamd5.h</file>
-            <file>$PROJ_DIR$\inc\hw_uart.h</file>
-            <file>$PROJ_DIR$\inc\hw_watchdog.h</file>
-            <file>$PROJ_DIR$\inc\sc4c1290kcpdt.h</file>
-            <file>$PROJ_DIR$\inc\sc4c1294ncpdt.h</file>
-            <file>$PROJ_DIR$\inc\hw_ssi.h</file>
-            <file>$PROJ_DIR$\inc\sc4ca294ncpdt.h</file>
-            <file>$PROJ_DIR$\inc\hw_memmap.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1230d5pm.h</file>
-            <file>$PROJ_DIR$\inc\hw_udma.h</file>
-            <file>$PROJ_DIR$\inc\hw_onewire.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1230e6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1230h6pm.h</file>
-            <file>$PROJ_DIR$\inc\hw_ints.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123bh6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123gh6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123gh6zrb.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1231h6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1233c3pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1233h6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1233h6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123ae6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123be6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123bh6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1232d5pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123ah6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1233e6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123fe6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123fh6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123ge6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123gh6zxr.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1233h6pge.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1237h6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1290nczad.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123gh6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1292ncpdt.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1237e6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1233d5pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1232h6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1236d5pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1237d5pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1237e6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1237h6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123be6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123gh6pge.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1233e6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1290ncpdt.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1237d5pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1236h6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1232c3pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1231h6pge.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1231h6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1236e6pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1237h6pge.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123bh6pge.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1233d5pm.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123bh6zrb.h</file>
-            <file>$PROJ_DIR$\inc\tm4c123ge6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1231e6pz.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1232e6pm.h</file>
-            <file>$PROJ_DIR$\Debug\List\Control.map</file>
-            <file>$PROJ_DIR$\logic\passowrd.c</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$PROJ_DIR$\inc\tm4c129enczad.h</file>
-            <file>$PROJ_DIR$\inc\tm4c129lnczad.h</file>
-            <file>$PROJ_DIR$\logic\password.h</file>
-            <file>$PROJ_DIR$\logic\buffer.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Logic\statemachine.o</file>
-            <file>$PROJ_DIR$\inc\tm4c129encpdt.h</file>
-            <file>$PROJ_DIR$\logic\statemachine.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Logic\buffer.o</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$PROJ_DIR$\inc\tm4c129ekcpdt.h</file>
-            <file>$PROJ_DIR$\inc\tm4c129xnczad.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Drivers\timer.o</file>
-            <file>$PROJ_DIR$\inc\tm4c129dncpdt.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1297nczad.h</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\Drivers\eeprom.o</file>
-            <file>$PROJ_DIR$\inc\tm4c1299nczad.h</file>
-            <file>$PROJ_DIR$\inc\tm4c129cnczad.h</file>
-            <file>$PROJ_DIR$\inc\tm4c129dnczad.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1292nczad.h</file>
-            <file>$PROJ_DIR$\logic\statemachine.c</file>
-            <file>$PROJ_DIR$\inc\tm4c1299kczad.h</file>
+            <file>$PROJ_DIR$\inc\hw_types.h</file>
             <file>$PROJ_DIR$\Debug\Obj\Drivers\uart.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\Logic\passowrd.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1294kcpdt.h</file>
-            <file>$PROJ_DIR$\logic\buffer.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
-            <file>$PROJ_DIR$\inc\tm4c1294ncpdt.h</file>
-            <file>$PROJ_DIR$\inc\tm4c1294nczad.h</file>
-            <file>$PROJ_DIR$\inc\tm4c129xkczad.h</file>
-            <file>$PROJ_DIR$\config.h</file>
-            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Drivers\buzzer.o</file>
-            <file>$PROJ_DIR$\startup_ewarm.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\Drivers\motor.o</file>
-            <file>$PROJ_DIR$\inc\tm4c129cncpdt.h</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\logic\buffer.c</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\logic\password.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Logic\statemachine.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Drivers\buzzer.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\List\Control.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+            <file>$PROJ_DIR$\Tests\test_timer.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\logic\statemachine.h</file>
+            <file>$PROJ_DIR$\Tests\test_functions.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Logic\passowrd.o</file>
+            <file>$PROJ_DIR$\logic\passowrd.c</file>
+            <file>$PROJ_DIR$\logic\buffer.h</file>
+            <file>$PROJ_DIR$\Tests\test_functions.c</file>
+            <file>$PROJ_DIR$\Tests\test_buzzer.c</file>
+            <file>$PROJ_DIR$\Tests\test_motor.c</file>
+            <file>$PROJ_DIR$\config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\startup_ewarm.c</file>
             <file>$PROJ_DIR$\Debug\Exe\Control.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\Drivers\motor.o</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Drivers\timer.o</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\..\HMI\HW\keypad.c</file>
-            <file>$PROJ_DIR$\..\HMI\MC\UART_DRIVER.C</file>
+            <file>$PROJ_DIR$\logic\statemachine.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Logic\buffer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Drivers\eeprom.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Tests\test_statemachine.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Tests\test_statemachine.o</file>
+            <file>$PROJ_DIR$\..\HMI\MC\SysTick_Driver.h</file>
+            <file>$PROJ_DIR$\Tests\test_uart.c</file>
+            <file>$PROJ_DIR$\Tests\test_eeprom.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Tests\test_eeprom.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Tests\test_uart.o</file>
         </outputs>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 151 103</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Drivers\motor.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 143</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 3 139 140</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Drivers\uart.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 128</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 0 139 109 140</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\Drivers\timer.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 117</file>
+                    <file> 50</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 4 139 140</file>
+                    <file> 13 41 19</file>
                 </tool>
             </inputs>
         </file>
@@ -220,13 +89,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 121</file>
+                    <file> 54</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 7 139 140</file>
+                    <file> 6 41 19</file>
                 </tool>
             </inputs>
         </file>
@@ -235,28 +104,82 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 141</file>
+                    <file> 25</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10 4 139 140</file>
+                    <file> 8 13 41 19</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\logic\passowrd.c</name>
+            <name>$PROJ_DIR$\Drivers\motor.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 129</file>
+                    <file> 46</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 139 108 140</file>
+                    <file> 10 41 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Drivers\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 41 37 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 45 27</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\logic\buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 37 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 33 41 19</file>
                 </tool>
             </inputs>
         </file>
@@ -265,43 +188,73 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 146</file>
+                    <file> 42</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10 7 3 4 0 112 139 140</file>
+                    <file> 8 6 10 13 12 33 41 19</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\logic\statemachine.c</name>
+            <name>$PROJ_DIR$\logic\passowrd.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 110</file>
+                    <file> 35</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10 7 3 4 0 139 109 108 112 140</file>
+                    <file> 41 23 19</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\logic\buffer.c</name>
+            <name>$PROJ_DIR$\Tests\test_functions.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 113</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 139 109 140</file>
+                    <file> 33 41 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_buzzer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 33 41 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_motor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 33 41 19</file>
                 </tool>
             </inputs>
         </file>
@@ -310,13 +263,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 135</file>
+                    <file> 29</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 152 130 132 147 150 131 37 35</file>
+                    <file> 51 31 43 18 17 49 14 15</file>
                 </tool>
             </inputs>
         </file>
@@ -325,13 +278,73 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 103</file>
+                    <file> 27</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 105 149 114 148 145 141 121 143 117 128 113 129 110 146 135</file>
+                    <file> 47 48 22 55 21 25 54 46 50 16 53 35 24 3 61 0 1 57 2 62 42 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\logic\statemachine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 6 10 13 12 41 37 23 32 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_statemachine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 6 10 13 12 41 37 23 32 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51 31 43 18 26 17 28 49 12 33 41 37 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_eeprom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 33 41 19</file>
                 </tool>
             </inputs>
         </file>

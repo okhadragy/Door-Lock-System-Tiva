@@ -1,15 +1,15 @@
-"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Drivers\timer.c"
+"D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\Control\Drivers\timer.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\BrowseInfo\Drivers\timer.pbi.dep
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\Control\Debug\BrowseInfo\Drivers\timer.pbi.dep
 -o
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\BrowseInfo\Drivers\timer.pbi
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\Control\Debug\BrowseInfo\Drivers\timer.pbi
 -I
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Drivers
+D:\College\Fall 2025\Introduction to Embedded Systems\Project\Door-Lock-System-Tiva\Control\Drivers
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I

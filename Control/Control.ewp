@@ -2472,6 +2472,33 @@
             <name>$PROJ_DIR$\logic\statemachine.h</name>
         </file>
     </group>
+    <group>
+        <name>Tests</name>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_buzzer.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_eeprom.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_functions.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_functions.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_motor.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_statemachine.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_timer.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Tests\test_uart.c</name>
+        </file>
+    </group>
     <file>
         <name>$PROJ_DIR$\config.h</name>
     </file>
