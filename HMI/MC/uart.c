@@ -23,6 +23,7 @@ void UART0_Init(void)
     UART0_CTL_R |= 0x301; // Enable RXE, TXE, UART
 
     // Enable UART0 interrupt
+    UART0_ICR_R |= 0x10;
     UART0_IM_R |= 0x10;     // RX interrupt enable
     NVIC_EN0_R |= (1 << 5); // NVIC interrupt enable for UART0
 }
