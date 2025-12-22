@@ -1,13 +1,11 @@
 #include "buffer.h"
 
-char BUFFER[PASSWORD_LENGTH];
-unsigned int bufferIndex = 0;
+volatile uint8_t BUFFER[2*PASSWORD_LENGTH];
+volatile uint8_t bufferIndex = 0;
 
 void ResetBuffer(void)
 {
-    for (int i = 0; i < bufferIndex; i++)
-    {
-        BUFFER[i] = 0;
-    }
+    __asm(" CPSID I");
     bufferIndex = 0;
+    __asm(" CPSIE I");
 }

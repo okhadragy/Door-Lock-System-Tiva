@@ -1,15 +1,15 @@
-"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Drivers\uart.c"
+"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\Control\Drivers\uart.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\BrowseInfo\Drivers\uart.pbi.dep
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\Control\Debug\BrowseInfo\Drivers\uart.pbi.dep
 -o
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\BrowseInfo\Drivers\uart.pbi
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\Control\Debug\BrowseInfo\Drivers\uart.pbi
 -I
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Drivers
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\Control\Drivers
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I

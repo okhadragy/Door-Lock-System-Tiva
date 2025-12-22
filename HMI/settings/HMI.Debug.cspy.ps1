@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\settings\HMI.Debug.general.xcl" --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\settings\HMI.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\settings\HMI.Debug.general.xcl" --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\settings\HMI.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\settings\HMI.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\settings\HMI.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\settings\HMI.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\settings\HMI.Debug.driver.xcl" 
 }

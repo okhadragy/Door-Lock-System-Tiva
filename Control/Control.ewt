@@ -2842,36 +2842,39 @@
         </settings>
     </configuration>
     <group>
-        <name>Drivers</name>
+        <name>Application</name>
         <file>
-            <name>$PROJ_DIR$\Drivers\buzzer.c</name>
+            <name>$PROJ_DIR$\Application\buffer.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Drivers\buzzer.h</name>
+            <name>$PROJ_DIR$\Application\buffer.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Drivers\eeprom.c</name>
+            <name>$PROJ_DIR$\Application\passowrd.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Drivers\eeprom.h</name>
+            <name>$PROJ_DIR$\Application\password.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Drivers\motor.c</name>
+            <name>$PROJ_DIR$\Application\statemachine.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Drivers\motor.h</name>
+            <name>$PROJ_DIR$\Application\statemachine.h</name>
+        </file>
+    </group>
+    <group>
+        <name>HW</name>
+        <file>
+            <name>$PROJ_DIR$\HW\buzzer.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Drivers\timer.c</name>
+            <name>$PROJ_DIR$\HW\buzzer.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Drivers\timer.h</name>
+            <name>$PROJ_DIR$\HW\motor.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Drivers\uart.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Drivers\uart.h</name>
+            <name>$PROJ_DIR$\HW\motor.h</name>
         </file>
     </group>
     <group>
@@ -3208,24 +3211,42 @@
         </file>
     </group>
     <group>
-        <name>Logic</name>
+        <name>MC</name>
         <file>
-            <name>$PROJ_DIR$\logic\buffer.c</name>
+            <name>$PROJ_DIR$\MC\eeprom.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\logic\buffer.h</name>
+            <name>$PROJ_DIR$\MC\eeprom.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\logic\passowrd.c</name>
+            <name>$PROJ_DIR$\MC\timer.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\logic\password.h</name>
+            <name>$PROJ_DIR$\MC\timer.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\logic\statemachine.c</name>
+            <name>$PROJ_DIR$\MC\uart.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\logic\statemachine.h</name>
+            <name>$PROJ_DIR$\MC\uart.h</name>
+        </file>
+    </group>
+    <group>
+        <name>Tests</name>
+        <file>
+            <name>$PROJ_DIR$\tests\test_buzzer.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\tests\test_functions.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\tests\test_functions.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\tests\test_motor.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\tests\test_timer.c</name>
         </file>
     </group>
     <file>

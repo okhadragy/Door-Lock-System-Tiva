@@ -1,7 +1,7 @@
 #include "buffer.h"
 
-char BUFFER[PASSWORD_LENGTH];
-unsigned int bufferIndex = 0;
+volatile char BUFFER[PASSWORD_LENGTH];
+volatile unsigned int bufferIndex = 0;
 
 void ResetBuffer(void)
 {

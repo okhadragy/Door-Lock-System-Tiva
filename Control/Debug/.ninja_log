@@ -1,63 +1,105 @@
 # ninja log v5
-262	480	7859752623382863	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
-446	676	7859752625797857	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
-2	288	7859752621685296	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/uart.o	9332e07c1fba3f94
-489	650	7859752625693776	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/startup_ewarm.o	c1bd612fb197831a
-428	571	7834344637020408	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	6b3edf994ad682c4
-30	306	7859752621710311	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
-21	229	7859752621408308	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/passowrd.o	f73a297981bd27b4
-12	248	7859752621408308	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/timer.o	8dab19c7ffb38013
-301	563	7859752624191581	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/eeprom.o	14f25adc483d0959
-320	575	7859752624680463	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/buzzer.o	8cf19c4c16d521e0
-2	434	7859754648617430	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/timer.o	8dab19c7ffb38013
-12	495	7859754649229804	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/passowrd.o	f73a297981bd27b4
-21	556	7859754649865366	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/uart.o	9332e07c1fba3f94
-30	605	7859754650353857	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/buffer.o	9cc3a206803d2811
-445	641	7859754650654697	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
-506	671	7859754650795588	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
-567	737	7859754651648829	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/eeprom.o	14f25adc483d0959
-617	766	7859754651784893	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/buzzer.o	8cf19c4c16d521e0
-653	777	7859754651804966	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/startup_ewarm.o	c1bd612fb197831a
-684	825	7859754652498322	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
-18	192	7859756625548395	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/buffer.o	9cc3a206803d2811
-26	211	7859756625548395	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/passowrd.o	f73a297981bd27b4
-34	245	7859756625692935	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/timer.o	8dab19c7ffb38013
-6	262	7859756625892085	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
-254	343	7859756627100632	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/startup_ewarm.o	c1bd612fb197831a
-225	387	7859756627363097	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
-204	405	7859756627462248	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/uart.o	9332e07c1fba3f94
-273	448	7859756627702706	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
-355	614	7859756629275206	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/eeprom.o	14f25adc483d0959
-399	691	7859756629774206	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/buzzer.o	8cf19c4c16d521e0
-701	797	7859756631667704	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	8fa44125c9b0015a
-701	797	7859756631667704	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/List/Control.map	8fa44125c9b0015a
-636	1247	7859776594056198	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/timer.o	8dab19c7ffb38013
-668	1266	7859776594056198	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/buffer.o	9cc3a206803d2811
-648	1286	7859776594158282	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/uart.o	9332e07c1fba3f94
-8	1324	7859776594527499	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
-1259	1399	7859776595626146	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/passowrd.o	f73a297981bd27b4
-1298	1417	7859776595700054	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/startup_ewarm.o	c1bd612fb197831a
-1279	1473	7859776596385354	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
-1338	1504	7859776596521303	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/eeprom.o	14f25adc483d0959
-1411	1538	7859776597067931	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/buzzer.o	8cf19c4c16d521e0
-1429	1597	7859776597553083	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
-1614	1740	7859776599036012	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	8fa44125c9b0015a
-1614	1740	7859776599036012	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/List/Control.map	8fa44125c9b0015a
-251	1029	7870925602579590	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/timer.o	8dab19c7ffb38013
-259	1043	7870925602579590	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
-9	1052	7870925602579590	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
-255	1059	7870925602579590	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/buzzer.o	8cf19c4c16d521e0
-1039	1132	7870925603714029	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/startup_ewarm.o	c1bd612fb197831a
-1139	1498	7870925607413580	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	32fb0bc11362d6a7
-53	456	7870953845298296	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
-27	463	7870953845325876	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
-14	473	7870953845298296	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/buffer.o	9cc3a206803d2811
-37	494	7870953845626486	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/uart.o	9332e07c1fba3f94
-499	581	7870953846633582	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	32fb0bc11362d6a7
-26	284	7870998365828597	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
-11	317	7870998366164272	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
-21	326	7870998366266853	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
-11	131	7870999304755166	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Drivers/motor.o	6810bc3163e9dd53
-15	138	7870999304755166	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
-2	155	7870999304897940	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Logic/statemachine.o	e9b0437e28ce928a
-161	219	7870999305672351	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	32fb0bc11362d6a7
+36	815	7876598874281725	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/buzzer.o	ed6cba429a11c820
+2	340	7876672992561177	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/main.o	b44540232073a7a4
+767	1005	7876598876815067	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/buffer.o	1f6e5bd4cec70d
+17	256	7876744270228148	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/uart.o	6d0e418359570c9f
+29	795	7876598874316987	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/eeprom.o	ce4ae5f4345f9106
+19	749	7876598874271663	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/motor.o	f2022658b8ab1191
+9	773	7876598874271663	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/timer.o	2d11ac3732638a4c
+826	1043	7876598877025206	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/startup_ewarm.o	6017e6167a1f2cd0
+1016	1193	7876598878996033	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/passowrd.o	ffe61c865a4cf50
+300	625	7876740241078277	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	c7659dff79a60cf0
+267	380	7876744271464770	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+22	196	7876745019096914	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/uart.o	6d0e418359570c9f
+212	284	7876745020038740	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+76	5238	7876757131916255	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/buzzer.o	ed6cba429a11c820
+68	5281	7876757131916255	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/motor.o	f2022658b8ab1191
+61	5325	7876757131916255	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/eeprom.o	ce4ae5f4345f9106
+33	5369	7876757131916255	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/timer.o	2d11ac3732638a4c
+5272	5631	7876757137595028	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	c7659dff79a60cf0
+5315	5755	7876757138241331	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/main.o	b44540232073a7a4
+5354	5809	7876757138316259	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/uart.o	6d0e418359570c9f
+5379	5822	7876757138251417	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/buffer.o	1f6e5bd4cec70d
+5641	6032	7876757141832220	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/passowrd.o	ffe61c865a4cf50
+6045	6307	7876757144980635	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+13	285	7876771652646717	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	c7659dff79a60cf0
+299	367	7876771653514820	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+2	225	7876775425301606	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	c7659dff79a60cf0
+234	281	7876775425907861	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+1	229	7876778609456181	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	c7659dff79a60cf0
+243	290	7876778610118553	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+1	133	7876779414804396	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	c7659dff79a60cf0
+142	194	7876779415442752	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+1	210	7876820367378552	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	c7659dff79a60cf0
+218	271	7876820368028315	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+11	147	7876848867542148	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	c7659dff79a60cf0
+2	120	7876849387523172	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/eeprom.o	ce4ae5f4345f9106
+131	179	7876849388152716	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	c5396586451bb124
+13	857	7877140580229085	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/buzzer.o	bc65d62438ba9c13
+435	876	7877140580289140	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/eeprom.o	d8828727aadd82e0
+441	892	7877140580219084	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/motor.o	606105697d71fac
+531	908	7877140580219084	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/timer.o	f5e1517a5b7f9acd
+869	1056	7877140582149084	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/buffer.o	2219430e8bc71870
+919	1127	7877140582879094	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/passowrd.o	6a26f64fa07fa1db
+902	1140	7877140582489099	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/uart.o	98df7956dd9c32ad
+1032	1200	7877140583829104	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/main.o	eaa160dea2c4172
+1091	1225	7877140583969158	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/startup_ewarm.o	c615094a98923a81
+3	132	7877143190351558	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+141	435	7877143193314953	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+4	230	7877152146086758	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+243	304	7877152146876218	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+2	3051	7878862992105947	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+3065	3471	7878862996391194	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+2	188	7878864159929686	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+204	287	7878864160932543	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+2	327	7878881543078147	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+341	440	7878881544258530	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+2	544	7880148181403044	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/main.o	eaa160dea2c4172
+559	1130	7880148187261031	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+2	244	7880157734479430	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+263	342	7880157735444995	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+2	187	7880161364503807	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+206	286	7880161365549773	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+3	409	7880168755727979	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/motor.o	606105697d71fac
+9	507	7880168756626527	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+524	604	7880168757653944	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+2	344	7880172456010233	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+363	444	7880172457147137	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+11	393	7880180668284360	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+3	425	7880180668472642	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Drivers/eeprom.o	d8828727aadd82e0
+441	894	7880180673272773	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+4	361	7880207810006969	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Logic/statemachine.o	e5871aa7450c524
+383	471	7880207811172274	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	2b51b59926ac890b
+2	227	7881228200673525	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/HW/motor.o	78262563ef62542b
+16	246	7881228200678823	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Application/statemachine.o	f0b1bc18c473a6ee
+21	262	7881228200673525	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/MC/uart.o	6d7e2c1194beb0fe
+161	346	7881228201924720	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/MC/timer.o	69f2e5cc26caa8d3
+239	378	7881228202162495	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Application/passowrd.o	8756ea5fd729414
+257	419	7881228202581334	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/main.o	3407ede3c74b6c64
+272	428	7881228202492117	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Application/buffer.o	53cc085ab683e04b
+356	510	7881228203552149	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/HW/buzzer.o	939209cccaec6015
+2	115	7881234122956647	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/MC/eeprom.o	d08179d1ce3d382a
+2	174	7881243637697678	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/startup_ewarm.o	b08714ad73040615
+184	390	7881243639864433	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	af3f85166404168d
+13	174	7881245367761707	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Tests/test_functions.o	775f5a45b667ad74
+1	235	7881245966221363	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Tests/test_buzzer.o	da02b67e4d3d64da
+6	262	7881245966424984	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Tests/test_timer.o	73c917f54d539abd
+10	299	7881245966757998	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/Tests/test_motor.o	87b5f2192cb8e838
+308	390	7881245967787235	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	115bc9d39965f27a
+1	210	7881250015329588	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Obj/startup_ewarm.o	220a55c2c806157a
+221	276	7881250016062264	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/Control/Debug/Exe/Control.out	115bc9d39965f27a
+286	1181	7881254528823678	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/MC/eeprom.o	761b87fb26ec823
+3	1199	7881254528742889	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/MC/uart.o	e35dcc063a7a377f
+303	1218	7881254528823678	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/MC/timer.o	76abe0ec0dc883c4
+318	1237	7881254528823678	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/HW/motor.o	dd34a2d18b56e628
+1192	1357	7881254530845944	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/HW/buzzer.o	83b8a54cdf53cd5e
+1213	1391	7881254531040981	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Application/passowrd.o	d4f3bb627f523438
+1248	1423	7881254531442887	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Application/buffer.o	b0e2671ed1d2331f
+1231	1460	7881254531875511	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Application/statemachine.o	f9cd94dbd45c2e1a
+1367	1545	7881254532578415	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Tests/test_buzzer.o	8ed8bb8fdd9f746a
+1399	1575	7881254532902161	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/main.o	be33ab8599d22861
+1432	1605	7881254533202236	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/startup_ewarm.o	c1bd612fb197831a
+1467	1654	7881254533814620	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Tests/test_functions.o	7477439028d798fe
+1553	1705	7881254534321500	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Tests/test_motor.o	87ded04eac5ceb59
+1584	1757	7881254534836686	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Obj/Tests/test_timer.o	734507185eebca8d
+1769	2080	7881254538108864	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/Control/Debug/Exe/Control.out	ce6b45eef60bd338

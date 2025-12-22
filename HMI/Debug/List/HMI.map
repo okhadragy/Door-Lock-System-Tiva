@@ -1,44 +1,61 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  10/Dec/2025  21:31:50
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  22/Dec/2025  18:09:58
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
 #        C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Exe\HMI.out
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Exe\HMI.out
 #    Map file     =
 #        C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\List\HMI.map
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\List\HMI.map
 #    Command line =
 #        -f "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Exe\HMI.out.rsp" ("C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\MC\buffer.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\HW\keypad.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\HW\LCD.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\main.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\HW\potentiometer.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\startup_ewarm.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\Application\state_machine.o"
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Exe\HMI.out.rsp"
+#        ("C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC\buffer.o"
 #        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\MC\SysTick_Driver.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\MC\timer.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Obj\MC\uart.o" --no_out_extension -o
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW\keypad.o"
 #        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\Exe\HMI.out" --redirect
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW\LCD.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\main.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW\potentiometer.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\startup_ewarm.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\Application\state_machine.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC\SysTick_Driver.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC\timer.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC\uart.o"
+#        --no_out_extension -o "C:\main\Computer Engineering\Level 5\Intro to
+#        Embedded Systems\FINAL_MORSI
+#        (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Exe\HMI.out" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
 #        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\Project\HMI\Debug\List\HMI.map" --config "C:\Program Files\IAR
-#        Systems\Embedded Workbench 9.0\arm\CONFIG\generic_cortex.icf"
-#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
+#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\List\HMI.map" --config
+#        "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
 
@@ -66,13 +83,12 @@ application.
 ***
 
 "A0":  place at address 0x0 { ro section .intvec };
-"P1":  place in [from 0x0 to 0x7'ffff] { ro };
-define block CSTACK with size = 1K, alignment = 8 { };
-define block PROC_STACK with size = 0, alignment = 8 { };
-define block HEAP with size = 2K, alignment = 8 { };
-"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
-          rw, block CSTACK, block PROC_STACK, block HEAP };
-do not initialize { section .noinit };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+do not initialize { rw section .noinit };
 
   Section          Kind         Address    Size  Object
   -------          ----         -------    ----  ------
@@ -80,7 +96,7 @@ do not initialize { section .noinit };
   .intvec          const            0x0   0x26c  startup_ewarm.o [1]
                                 - 0x26c   0x26c
 
-"P1":                                    0x275c
+"P1":                                    0x2c44
   .text            ro code        0x26c   0xf16  xprintffull_nomb.o [5]
   .text            ro code       0x1182     0xa  xsprout.o [5]
   .text            ro code       0x118c    0x16  strchr.o [7]
@@ -103,57 +119,64 @@ do not initialize { section .noinit };
   .text            ro code       0x1e10     0x6  abort.o [5]
   .text            ro code       0x1e18     0x2  I64DivZer.o [7]
   .text            ro code       0x1e1c    0x14  exit.o [8]
-  .text            ro code       0x1e30   0x430  state_machine.o [2]
-  .text            ro code       0x2260   0x104  keypad.o [3]
-  .text            ro code       0x2364    0x50  SysTick_Driver.o [4]
-  .text            ro code       0x23b4   0x1f8  LCD.o [3]
-  .text            ro code       0x25ac   0x158  uart.o [4]
-  .text            ro code       0x2704    0x24  buffer.o [4]
-  .text            ro code       0x2728    0xd8  potentiometer.o [3]
-  .text            ro code       0x2800    0x40  sprintf.o [5]
-  .text            ro code       0x2840    0x38  zero_init3.o [7]
-  .text            ro code       0x2878    0x28  data_init.o [7]
-  .text            ro code       0x28a0    0x22  main.o [1]
-  .iar.init_table  const         0x28c4    0x10  - Linker created -
-  .text            ro code       0x28d4    0x1e  startup_ewarm.o [1]
-  .text            ro code       0x28f4    0x1c  cstartup_M.o [7]
-  .text            ro code       0x2910    0x1e  cmain.o [7]
-  .text            ro code       0x292e     0x4  low_level_init.o [5]
-  .text            ro code       0x2932     0x4  exit.o [5]
-  .text            ro code       0x2938     0xa  cexit.o [7]
-  .rodata          const         0x2944    0x14  state_machine.o [2]
-  .rodata          const         0x2958    0x10  keypad.o [3]
-  .rodata          const         0x2968    0x10  state_machine.o [2]
-  .rodata          const         0x2978     0xc  state_machine.o [2]
-  .rodata          const         0x2984     0xc  state_machine.o [2]
-  .rodata          const         0x2990     0xc  state_machine.o [2]
-  .rodata          const         0x299c     0x8  LCD.o [3]
-  .rodata          const         0x29a4     0x8  state_machine.o [2]
-  .rodata          const         0x29ac     0x8  state_machine.o [2]
-  .rodata          const         0x29b4     0x8  state_machine.o [2]
-  .rodata          const         0x29bc     0x8  state_machine.o [2]
-  .rodata          const         0x29c4     0x4  keypad.o [3]
-  .rodata          const         0x29c8     0x0  zero_init3.o [7]
-                               - 0x29c8  0x275c
+  .text            ro code       0x1e30   0x79c  state_machine.o [2]
+  .text            ro code       0x25cc   0x104  keypad.o [3]
+  .text            ro code       0x26d0    0x6c  SysTick_Driver.o [4]
+  .text            ro code       0x273c   0x270  LCD.o [3]
+  .text            ro code       0x29ac    0x66  ABImemset.o [7]
+  .text            ro code       0x2a14   0x154  uart.o [4]
+  .text            ro code       0x2b68    0x24  buffer.o [4]
+  .text            ro code       0x2b8c    0xd8  potentiometer.o [3]
+  .text            ro code       0x2c64    0x40  sprintf.o [5]
+  .text            ro code       0x2ca4    0x46  main.o [1]
+  .text            ro code       0x2cea    0x38  zero_init3.o [7]
+  .text            ro code       0x2d24    0x28  data_init.o [7]
+  .text            ro code       0x2d4c    0x22  fpinit_M.o [6]
+  .iar.init_table  const         0x2d70    0x10  - Linker created -
+  .text            ro code       0x2d80    0x1e  startup_ewarm.o [1]
+  .text            ro code       0x2da0    0x1c  cstartup_M.o [7]
+  .text            ro code       0x2dbc    0x1e  cmain.o [7]
+  .text            ro code       0x2dda     0x4  low_level_init.o [5]
+  .text            ro code       0x2dde     0x4  exit.o [5]
+  .text            ro code       0x2de4     0xa  cexit.o [7]
+  .rodata          const         0x2df0    0x18  state_machine.o [2]
+  .rodata          const         0x2e08    0x14  state_machine.o [2]
+  .rodata          const         0x2e1c    0x14  state_machine.o [2]
+  .rodata          const         0x2e30    0x10  keypad.o [3]
+  .rodata          const         0x2e40    0x10  state_machine.o [2]
+  .rodata          const         0x2e50    0x10  state_machine.o [2]
+  .rodata          const         0x2e60     0xc  state_machine.o [2]
+  .rodata          const         0x2e6c     0xc  state_machine.o [2]
+  .rodata          const         0x2e78     0xc  state_machine.o [2]
+  .rodata          const         0x2e84     0x8  LCD.o [3]
+  .rodata          const         0x2e8c     0x8  state_machine.o [2]
+  .rodata          const         0x2e94     0x8  state_machine.o [2]
+  .rodata          const         0x2e9c     0x8  state_machine.o [2]
+  .rodata          const         0x2ea4     0x8  state_machine.o [2]
+  .rodata          const         0x2eac     0x4  keypad.o [3]
+  .rodata          const         0x2eb0     0x0  zero_init3.o [7]
+                               - 0x2eb0  0x2c44
 
-"P2", part 1 of 2:                         0x14
+"P2", part 1 of 2:                         0x20
   .bss             zero     0x2000'0000     0x8  buffer.o [4]
-  .bss             zero     0x2000'0008     0x4  buffer.o [4]
-  .bss             zero     0x2000'000c     0x4  xfail_s.o [5]
-  .bss             zero     0x2000'0010     0x1  state_machine.o [2]
-  .bss             zero     0x2000'0011     0x1  state_machine.o [2]
-                          - 0x2000'0012    0x12
+  .bss             zero     0x2000'0008     0x8  state_machine.o [2]
+  .bss             zero     0x2000'0010     0x4  buffer.o [4]
+  .bss             zero     0x2000'0014     0x4  state_machine.o [2]
+  .bss             zero     0x2000'0018     0x4  xfail_s.o [5]
+  .bss             zero     0x2000'001c     0x1  state_machine.o [2]
+  .bss             zero     0x2000'001d     0x1  state_machine.o [2]
+                          - 0x2000'001e    0x1e
 
 "P2", part 2 of 2:                        0x200
-  .noinit          uninit   0x2000'0014   0x200  startup_ewarm.o [1]
-                          - 0x2000'0214   0x200
+  .noinit          uninit   0x2000'0020   0x200  startup_ewarm.o [1]
+                          - 0x2000'0220   0x200
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x29c8     0x7'ffff  0x7'd638
-  0x2000'0214  0x2000'ffff    0xfdec
+       0x2eb0     0x3'ffff  0x3'd150
+  0x2000'0220  0x2000'7fff    0x7de0
 
 
 *******************************************************************************
@@ -163,8 +186,8 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x12:
-          0x2000'0000  0x12
+    1 destination range, total size 0x1e:
+          0x2000'0000  0x1e
 
 
 
@@ -178,30 +201,30 @@ command line/config:
     ------------------------------------------------
     Total:
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj: [1]
-    main.o                      34
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj: [1]
+    main.o                      70
     startup_ewarm.o             30      620      512
     ------------------------------------------------
-    Total:                      64      620      512
+    Total:                     100      620      512
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\Application: [2]
-    state_machine.o          1'072      104        2
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\Application: [2]
+    state_machine.o          1'948      164       14
     ------------------------------------------------
-    Total:                   1'072      104        2
+    Total:                   1'948      164       14
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\HW: [3]
-    LCD.o                      504        8
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW: [3]
+    LCD.o                      624        8
     keypad.o                   260       20
     potentiometer.o            216
     ------------------------------------------------
-    Total:                     980       28
+    Total:                   1'100       28
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\MC: [4]
-    SysTick_Driver.o            80
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC: [4]
+    SysTick_Driver.o           108
     buffer.o                    36                12
-    uart.o                     344
+    uart.o                     340
     ------------------------------------------------
-    Total:                     460                12
+    Total:                     484                12
 
 dl7M_tln.a: [5]
     abort.o                      6
@@ -214,7 +237,7 @@ dl7M_tln.a: [5]
     ------------------------------------------------
     Total:                   4'014                 4
 
-m7M_tl.a: [6]
+m7M_tls.a: [6]
     DblAddSub.o                590
     DblCmpGe.o                  52
     DblCmpLe.o                  52
@@ -224,13 +247,15 @@ m7M_tl.a: [6]
     DblToU32.o                  34
     S32ToDbl.o                  34
     U32ToDbl.o                  28
+    fpinit_M.o                  34
     frexp.o                    112
     ldexp.o                    314
     ------------------------------------------------
-    Total:                   2'278
+    Total:                   2'312
 
 rt7M_tl.a: [7]
     ABImemcpy_unaligned.o      118
+    ABImemset.o                102
     I64DivMod.o                560
     I64DivZer.o                  2
     cexit.o                     10
@@ -242,17 +267,17 @@ rt7M_tl.a: [7]
     strlen.o                    54
     zero_init3.o                56
     ------------------------------------------------
-    Total:                   1'008
+    Total:                   1'110
 
 shb_l.a: [8]
     exit.o                      20
     ------------------------------------------------
     Total:                      20
 
-    Gaps                        28        4
+    Gaps                        32        4
     Linker created                       16
 ----------------------------------------------------
-    Grand Total:             9'924      772      530
+    Grand Total:            11'120      832      542
 
 
 *******************************************************************************
@@ -261,35 +286,38 @@ shb_l.a: [8]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base        0x28c4          --   Gb  - Linker created -
-.iar.init_table$$Limit       0x28d4          --   Gb  - Linker created -
-?main                        0x2911         Code  Gb  cmain.o [7]
+.iar.init_table$$Base        0x2d70          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x2d80          --   Gb  - Linker created -
+?main                        0x2dbd         Code  Gb  cmain.o [7]
 BUFFER                  0x2000'0000    0x8  Data  Gb  buffer.o [4]
-CURRENT_STATE           0x2000'0010    0x1  Data  Gb  state_machine.o [2]
-FaultISR                     0x28ef    0x2  Code  Lc  startup_ewarm.o [1]
-INIT_MACHINE                 0x1ead    0xa  Code  Gb  state_machine.o [2]
-IntDefaultHandler            0x28f1    0x2  Code  Lc  startup_ewarm.o [1]
-LCD_command                  0x23f3   0x40  Code  Gb  LCD.o [3]
-LCD_data                     0x2433   0x34  Code  Gb  LCD.o [3]
-LCD_enablePulse              0x23b5   0x28  Code  Gb  LCD.o [3]
-LCD_init                     0x24e5   0xa2  Code  Gb  LCD.o [3]
-LCD_printString              0x2467   0x3a  Code  Gb  LCD.o [3]
-LCD_send4Bits                0x23dd   0x16  Code  Gb  LCD.o [3]
-LCD_writeOrMenu              0x24a1   0x44  Code  Gb  LCD.o [3]
-NmiSR                        0x28ed    0x2  Code  Lc  startup_ewarm.o [1]
-Pot_Init                     0x2729   0x76  Code  Gb  potentiometer.o [3]
-Pot_Read_Timeout             0x279f   0x2a  Code  Gb  potentiometer.o [3]
-Region$$Table$$Base          0x28c4          --   Gb  - Linker created -
-Region$$Table$$Limit         0x28d4          --   Gb  - Linker created -
-ResetBuffer                  0x2705   0x24  Code  Gb  buffer.o [4]
-ResetISR                     0x28d5   0x14  Code  Gb  startup_ewarm.o [1]
-STATE_MACHINE                0x1ebd  0x364  Code  Gb  state_machine.o [2]
-SysTick_DelayMs              0x2365   0x22  Code  Gb  SysTick_Driver.o [4]
-SysTick_DelayUs              0x2387   0x20  Code  Gb  SysTick_Driver.o [4]
-UART0IntHandler              0x266b   0x50  Code  Gb  uart.o [4]
-UART0_Init                   0x25c3   0x82  Code  Gb  uart.o [4]
-UART0_Send_String            0x2655   0x16  Code  Gb  uart.o [4]
-UART0_Transmit               0x2645   0x10  Code  Gb  uart.o [4]
+CURRENT_STATE           0x2000'001c    0x1  Data  Gb  state_machine.o [2]
+FaultISR                     0x2d9b    0x2  Code  Lc  startup_ewarm.o [1]
+INIT_MACHINE                 0x1f4f   0x4a  Code  Gb  state_machine.o [2]
+IntDefaultHandler            0x2d9d    0x2  Code  Lc  startup_ewarm.o [1]
+LCD_command                  0x277b   0x40  Code  Gb  LCD.o [3]
+LCD_data                     0x27bb   0x34  Code  Gb  LCD.o [3]
+LCD_enablePulse              0x273d   0x28  Code  Gb  LCD.o [3]
+LCD_init                     0x28e5   0xa2  Code  Gb  LCD.o [3]
+LCD_printString              0x27ef   0x3a  Code  Gb  LCD.o [3]
+LCD_send4Bits                0x2765   0x16  Code  Gb  LCD.o [3]
+LCD_writeOrMenu              0x2829   0xbc  Code  Gb  LCD.o [3]
+NmiSR                        0x2d99    0x2  Code  Lc  startup_ewarm.o [1]
+PASSWORD                0x2000'0008    0x8  Data  Gb  state_machine.o [2]
+Pot_Init                     0x2b8d   0x76  Code  Gb  potentiometer.o [3]
+Pot_Read_Timeout             0x2c03   0x2a  Code  Gb  potentiometer.o [3]
+Region$$Table$$Base          0x2d70          --   Gb  - Linker created -
+Region$$Table$$Limit         0x2d80          --   Gb  - Linker created -
+ResetBuffer                  0x2b69   0x24  Code  Gb  buffer.o [4]
+ResetISR                     0x2d81   0x14  Code  Gb  startup_ewarm.o [1]
+STATE_MACHINE                0x1f99  0x5de  Code  Gb  state_machine.o [2]
+StackPaint                   0x2ca5   0x14  Code  Gb  main.o [1]
+SysTick_DelayMs              0x26ed   0x22  Code  Gb  SysTick_Driver.o [4]
+SysTick_DelayUs              0x270f   0x20  Code  Gb  SysTick_Driver.o [4]
+SysTick_Init                 0x26d1   0x1c  Code  Gb  SysTick_Driver.o [4]
+UART0IntHandler              0x2ad9   0x48  Code  Gb  uart.o [4]
+UART0_Init                   0x2a15   0x9c  Code  Gb  uart.o [4]
+UART0_Send_String            0x2ac3   0x16  Code  Gb  uart.o [4]
+UART0_Transmit               0x2ab1   0x12  Code  Gb  uart.o [4]
 _LitobFullNoMb                0xf89  0x10c  Code  Lc  xprintffull_nomb.o [5]
 _PrintfFullNoMb               0x26d  0xcec  Code  Gb  xprintffull_nomb.o [5]
 _PutcharFullNoMb             0x10ed   0x20  Code  Lc  xprintffull_nomb.o [5]
@@ -304,70 +332,75 @@ __aeabi_dmul                 0x1a35         Code  Gb  DblMul.o [6]
 __aeabi_dsub                 0x16c9         Code  Gb  DblAddSub.o [6]
 __aeabi_i2d                  0x1539         Code  Gb  S32ToDbl.o [6]
 __aeabi_ldiv0                0x1e19         Code  Gb  I64DivZer.o [7]
+__aeabi_memset               0x29ad         Code  Gb  ABImemset.o [7]
 __aeabi_ui2d                 0x1a19         Code  Gb  U32ToDbl.o [6]
 __aeabi_uldivmod             0x1be1         Code  Gb  I64DivMod.o [7]
-__cmain                      0x2911         Code  Gb  cmain.o [7]
+__cmain                      0x2dbd         Code  Gb  cmain.o [7]
 __exit                       0x1e1d   0x14  Code  Gb  exit.o [8]
 __iar_Fail_s                 0x11a5   0x1c  Code  Gb  xfail_s.o [5]
 __iar_Memchr                 0x121d         Code  Gb  memchr.o [7]
+__iar_Memset                 0x29ad         Code  Gb  ABImemset.o [7]
+__iar_Memset_word            0x29b5         Code  Gb  ABImemset.o [7]
 __iar_Strchr                 0x118d         Code  Gb  strchr.o [7]
-__iar_data_init3             0x2879   0x28  Code  Gb  data_init.o [7]
+__iar_data_init3             0x2d25   0x28  Code  Gb  data_init.o [7]
 __iar_frexp                  0x12f9         Code  Gb  frexp.o [6]
-__iar_frexp64                0x12ed         Code  Gb  frexp.o [6]
 __iar_frexpl                 0x12f9         Code  Gb  frexp.o [6]
+__iar_init_vfp               0x2d4d         Code  Gb  fpinit_M.o [6]
 __iar_ldexp64                0x13c5         Code  Gb  ldexp.o [6]
-__iar_program_start          0x28f5         Code  Gb  cstartup_M.o [7]
+__iar_program_start          0x2da1         Code  Gb  cstartup_M.o [7]
 __iar_scalbln64              0x13c5         Code  Gb  ldexp.o [6]
 __iar_scalbn64               0x13c5         Code  Gb  ldexp.o [6]
+__iar_softfp___iar_frexp64
+                             0x12ed         Code  Gb  frexp.o [6]
+__iar_softfp_frexp           0x12ed         Code  Gb  frexp.o [6]
+__iar_softfp_frexpl          0x12ed         Code  Gb  frexp.o [6]
 __iar_unaligned_memcpy       0x1275         Code  Gb  ABImemcpy_unaligned.o [7]
 __iar_unaligned_memcpy4
                              0x1295         Code  Gb  ABImemcpy_unaligned.o [7]
 __iar_unaligned_memcpy8
                              0x1295         Code  Gb  ABImemcpy_unaligned.o [7]
-__iar_zero_init3             0x2841   0x38  Code  Gb  zero_init3.o [7]
-__low_level_init             0x292f    0x4  Code  Gb  low_level_init.o [5]
+__iar_zero_init3             0x2ceb   0x38  Code  Gb  zero_init3.o [7]
+__low_level_init             0x2ddb    0x4  Code  Gb  low_level_init.o [5]
 __vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
-_call_main                   0x291d         Code  Gb  cmain.o [7]
-_exit                        0x2939         Code  Gb  cexit.o [7]
+_call_main                   0x2dc9         Code  Gb  cmain.o [7]
+_exit                        0x2de5         Code  Gb  cexit.o [7]
 abort                        0x1e11    0x6  Code  Gb  abort.o [5]
-bufferIndex             0x2000'0008    0x4  Data  Gb  buffer.o [4]
-enable_gpio                  0x25ad   0x16  Code  Lc  uart.o [4]
-enterPassword                0x1e6b   0x42  Code  Lc  state_machine.o [2]
-exit                         0x2933    0x4  Code  Gb  exit.o [5]
-frexp                        0x12ed         Code  Gb  frexp.o [6]
-frexpl                       0x12ed         Code  Gb  frexp.o [6]
-keypad_init                  0x2261   0x54  Code  Gb  keypad.o [3]
-lastAction              0x2000'0011    0x1  Data  Lc  state_machine.o [2]
+bufferIndex             0x2000'0010    0x4  Data  Gb  buffer.o [4]
+enterPassword                0x1e65   0xea  Code  Lc  state_machine.o [2]
+exit                         0x2ddf    0x4  Code  Gb  exit.o [5]
+failCount               0x2000'0014    0x4  Data  Gb  state_machine.o [2]
+keypad_init                  0x25cd   0x54  Code  Gb  keypad.o [3]
+lastAction              0x2000'001d    0x1  Data  Lc  state_machine.o [2]
 ldexp                        0x13c5         Code  Gb  ldexp.o [6]
 ldexpl                       0x13c5         Code  Gb  ldexp.o [6]
-main                         0x28a1   0x22  Code  Gb  main.o [1]
+main                         0x2cc1   0x2a  Code  Gb  main.o [1]
 memchr                       0x121d         Code  Gb  memchr.o [7]
-pui32Stack              0x2000'0014  0x200  Data  Lc  startup_ewarm.o [1]
-readKey                      0x1e31   0x3a  Code  Lc  state_machine.o [2]
-readKeypad                   0x22b5   0x84  Code  Gb  keypad.o [3]
+pui32Stack              0x2000'0020  0x200  Data  Lc  startup_ewarm.o [1]
+readKey                      0x1e31   0x34  Code  Lc  state_machine.o [2]
+readKeypad                   0x2621   0x84  Code  Gb  keypad.o [3]
 scalbln                      0x13c5         Code  Gb  ldexp.o [6]
 scalblnl                     0x13c5         Code  Gb  ldexp.o [6]
 scalbn                       0x13c5         Code  Gb  ldexp.o [6]
 scalbnl                      0x13c5         Code  Gb  ldexp.o [6]
 scale                        0x1095   0x46  Code  Lc  xprintffull_nomb.o [5]
-sec_hand                0x2000'000c    0x4  Data  Lc  xfail_s.o [5]
-sprintf                      0x2801   0x40  Code  Gb  sprintf.o [5]
+sec_hand                0x2000'0018    0x4  Data  Lc  xfail_s.o [5]
+sprintf                      0x2c65   0x40  Code  Gb  sprintf.o [5]
 strchr                       0x118d         Code  Gb  strchr.o [7]
 strlen                       0x11e5         Code  Gb  strlen.o [7]
 
 
-[1] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj
-[2] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\Application
-[3] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\HW
-[4] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\MC
+[1] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj
+[2] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\Application
+[3] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW
+[4] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC
 [5] = dl7M_tln.a
-[6] = m7M_tl.a
+[6] = m7M_tls.a
 [7] = rt7M_tl.a
 [8] = shb_l.a
 
-  9'924 bytes of readonly  code memory
-    772 bytes of readonly  data memory
-    530 bytes of readwrite data memory
+  11'120 bytes of readonly  code memory
+     832 bytes of readonly  data memory
+     542 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

@@ -1,10 +1,18 @@
 C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Debug\BrowseInfo\main.pbi: \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Logic\statemachine.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\motor.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\buzzer.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\timer.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\uart.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\..\tm4c123gh6pm.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Logic\..\config.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\Drivers\eeprom.h \
-  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\main.c
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control\main.c \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./MC/eeprom.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./MC/../config.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/tm4c123gh6pm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./MC/uart.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./MC/timer.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./HW/buzzer.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./HW/../config.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./HW/motor.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Application/statemachine.h \
+  C:\main\Computer\ Engineering\Level\ 5\Intro\ to\ Embedded\ Systems\Project\Control/./Application/../config.h

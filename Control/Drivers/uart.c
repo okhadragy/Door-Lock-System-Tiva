@@ -23,6 +23,7 @@ void UART0_Init(void)
     UART0_CTL_R |= 0x301; // Enable RXE, TXE, UART
 
     // Enable UART0 interrupt
+    UART0_ICR_R |= 0x10;
     UART0_IM_R |= 0x10;     // RX interrupt enable
     NVIC_EN0_R |= (1 << 5); // NVIC interrupt enable for UART0
 }
@@ -45,28 +46,40 @@ void UART0_Send_String(const char *str)
 
 void UART0IntHandler(void)
 {
-    if (UART0_MIS_R & 0x10)
-    {                                   // check RX interrupt flag = bit 4
-        unsigned int data = UART0_DR_R; // Read data + error bits
-        char c = data & 0xFF;           // Extract received byte (lowest 8 bits)
-
-        if (data & 0xF00)
-        { // Check for any error flags in bits [11:8] OE = Overrun, BE = Break, PE = Parity, FE = Framing)
-            if (data & 0x200)
-            { // Parity error bit (PE)
-                UART0_Send_String("!");
-            }
-        }
-        else
+    /* Check RX interrupt */
+    if (UART5_MIS_R & UART_MIS_RXMIS)
+    {
+        /* Read ALL available bytes */
+        while (!(UART5_FR_R & UART_FR_RXFE))
         {
-            if (bufferIndex < sizeof(BUFFER)) {
-                BUFFER[bufferIndex++] = c;
-            } else {
-                UART0_Send_String("!"); // Buffer overflow
-                ResetBuffer();
+            unsigned int  data = UART5_DR_R;
+
+            /* Handle overrun error */
+            if (data & UART_DR_OE)
+            {
+                UART5_ECR_R = 0xFF;    // Clear all UART errors
+                break;                // Exit FIFO read
             }
-            
+
+            /* Handle other UART errors */
+            if (data & 0xF00)
+            {
+                // Error detected ? discard byte
+                continue;
+            }
+
+            /* Store received byte */
+            if (bufferIndex < sizeof(BUFFER))
+            {
+                BUFFER[bufferIndex++] = (char)(data & 0xFF);
+            }
+            else
+            {
+                ResetBuffer();   // buffer overflow protection
+            }
         }
-        UART0_ICR_R = 0x10; // Clear RX interrupt flag
+
+        /* Clear RX interrupt ONCE */
+        UART5_ICR_R = UART_ICR_RXIC;
     }
 }

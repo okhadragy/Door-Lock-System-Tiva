@@ -1,9 +1,9 @@
 #ifndef BUFFER_H
 #define BUFFER_H
 #include "../config.h"
-
-extern char BUFFER[PASSWORD_LENGTH];
-extern unsigned int bufferIndex;
+//PREVENT FLUSHING
+volatile extern char BUFFER[PASSWORD_LENGTH];
+ volatile extern unsigned int bufferIndex;
 
 void ResetBuffer(void);
 

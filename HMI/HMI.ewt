@@ -2865,10 +2865,10 @@
             <name>$PROJ_DIR$\HW\LCD.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\HW\poteniometer.h</name>
+            <name>$PROJ_DIR$\HW\potentiometer.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\HW\potentiometer.c</name>
+            <name>$PROJ_DIR$\HW\potentiometer.h</name>
         </file>
     </group>
     <group>
@@ -3234,6 +3234,9 @@
             <name>$PROJ_DIR$\MC\uart.h</name>
         </file>
     </group>
+    <file>
+        <name>$PROJ_DIR$\config.h</name>
+    </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>

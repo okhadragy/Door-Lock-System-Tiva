@@ -1,26 +1,96 @@
 # ninja log v5
-355	474	7870934012538936	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/buffer.o	8e73d708f99e9058
-11	221	7870935533304168	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/keypad.o	d3bb4ab543087382
-30	437	7870941494077137	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/timer.o	79ff85eb505927bc
-383	482	7870941494753899	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/startup_ewarm.o	22344c1375165536
-417	533	7870941495252062	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
-7	146	7870954626631849	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/uart.o	7e377b1e1ae21b60
-12	159	7870954626631849	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/buffer.o	8e73d708f99e9058
-109	246	7870954627578101	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/potentiometer.o	b796076b2d88d8b0
-15	420	7870960427562925	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/SysTick_Driver.o	f0ebb3f542b781a
-44	431	7870960427562925	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
-1	444	7870960427687486	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/LCD.o	d8f811eef69a3402
-371	1202	7870965862130908	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
-1	1392	7870965864065664	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/Application/state_machine.o	73e33d1cfafa38fe
-4	108	7870966235677072	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
-1	84	7870966410080604	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
-22	357	7870977070331976	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/LCD.o	d8f811eef69a3402
-243	367	7870977070422660	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
-7	394	7870977070739327	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/MC/SysTick_Driver.o	f0ebb3f542b781a
-27	426	7870977071044570	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/Application/state_machine.o	73e33d1cfafa38fe
-2	135	7870978538822892	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/potentiometer.o	b796076b2d88d8b0
-28	529	7870982751952225	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/keypad.o	d3bb4ab543087382
-4	554	7870982752267526	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/HW/potentiometer.o	b796076b2d88d8b0
-6	112	7870983104289020	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/main.o	a408aaa43a61fd1f
-1	151	7870983104697031	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Obj/Application/state_machine.o	73e33d1cfafa38fe
-159	242	7870983105739024	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/Exe/HMI.out	831518dd744010f9
+455	604	7876601496443496	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/startup_ewarm.o	92df6e67f4bd0f01
+23	307	7876601493174600	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/LCD.o	a3ee7367800661e3
+3	230	7876601492680022	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/potentiometer.o	b04aeb05bf3c2760
+12	271	7876601492850730	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/keypad.o	6c57febc4f667459
+2	242	7876788852344629	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	fc6d16e83d4fe858
+241	441	7876601494830425	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/SysTick_Driver.o	56766d44e8a617d7
+319	524	7876601495517927	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/timer.o	b412db065ca7ab7b
+8	150	7876657112765334	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	80bad64ef8c48537
+17	348	7876745975775398	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/uart.o	e017e96e8d82f3a4
+536	739	7876601497557589	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/buffer.o	6d772539eaad2b09
+255	305	7876788853013355	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	e00921a9f3df1e0a
+2	257	7876793911512472	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	fc6d16e83d4fe858
+270	322	7876793912200218	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	e00921a9f3df1e0a
+11	300	7876806326305378	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	80bad64ef8c48537
+2	144	7876806435863603	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	fc6d16e83d4fe858
+161	216	7876806436615604	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	e00921a9f3df1e0a
+2	270	7876814465105354	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	fc6d16e83d4fe858
+277	330	7876814465733632	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	e00921a9f3df1e0a
+2	156	7876815646917372	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	fc6d16e83d4fe858
+167	220	7876815647609561	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	e00921a9f3df1e0a
+2	262	7876825275622985	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	fc6d16e83d4fe858
+271	327	7876825276286495	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	e00921a9f3df1e0a
+12	335	7876848794402612	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/LCD.o	a3ee7367800661e3
+21	344	7876848794412427	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	fc6d16e83d4fe858
+355	433	7876848795449333	C:/Users/Mohamed Morsi/Desktop/CONTROL FINAL/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	e00921a9f3df1e0a
+41	464	7877143881875028	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/keypad.o	96dfe2a22d3502c0
+12	501	7877143882205038	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+36	541	7877143882365044	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/potentiometer.o	357ff17146712552
+22	555	7877143882405058	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/LCD.o	ad8f4c27dc94a35
+473	690	7877143884125061	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/buffer.o	e53fd0db94c51c75
+512	709	7877143884165053	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/SysTick_Driver.o	705ede4cb45922c3
+551	765	7877143884725076	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/timer.o	26a542316999be7a
+572	818	7877143885445033	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/uart.o	a84441a3b55110bd
+704	895	7877143886225068	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	5e6f2d58293ac493
+721	974	7877143886975480	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/startup_ewarm.o	4b4fd3ab2dc3fdac
+985	1065	7877143887925881	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+4	458	7877155567704936	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+469	532	7877155568481278	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+2	279	7877156823117826	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+294	368	7877156824137770	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+3	430	7877159655936877	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+441	502	7877159656680277	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+3	561	7877169625001976	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+572	631	7877169625744231	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+9	705	7877172466305158	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+723	824	7877172467581400	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+32	591	7877177027600646	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/keypad.o	96dfe2a22d3502c0
+8	663	7877177028310681	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+673	743	7877177029190680	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+15	313	7877177845500959	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/keypad.o	96dfe2a22d3502c0
+4	387	7877177846220253	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+398	492	7877177847400838	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+202	898	7878830846361569	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	5e6f2d58293ac493
+198	929	7878830846517825	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/uart.o	a84441a3b55110bd
+12	964	7878830847052135	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+193	1045	7878830847898667	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/keypad.o	96dfe2a22d3502c0
+1060	1569	7878830853220336	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+3	162	7878833299829941	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/uart.o	a84441a3b55110bd
+177	591	7878833304155495	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+0	355	7878854647598930	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+3	94	7878854767478394	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+2	376	7878859008151445	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+391	476	7878859009155158	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+2	239	7878861396878482	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+254	383	7878861398333841	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+22	271	7879716723030987	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	5e6f2d58293ac493
+13	347	7879716723870980	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+3	205	7879719891630709	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	5e6f2d58293ac493
+2	122	7879721884074056	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	5e6f2d58293ac493
+132	194	7879721884816370	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+9	264	7879729348686744	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	5e6f2d58293ac493
+273	425	7879729350326492	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+3	259	7879730270167003	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	5e6f2d58293ac493
+268	631	7879730273905826	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+3	488	7880156678660370	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+504	761	7880156681429937	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+2	398	7880161152162006	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+414	499	7880161153222282	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+5	599	7880197067303068	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/uart.o	a84441a3b55110bd
+614	913	7880197070469376	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+3	173	7880198350845302	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/uart.o	a84441a3b55110bd
+189	275	7880198351871405	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+2	244	7880208017437017	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	46f598b524bbe9e9
+262	349	7880208018451123	F:/asu/Fall 25/Embedded/Project/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	f47775b7f30c353f
+1	335	7881229977662794	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/keypad.o	2124810497337a1b
+10	371	7881229977783765	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/potentiometer.o	f431bd8ad8d0aa56
+6	388	7881229977783765	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/HW/LCD.o	26c31a2fc45d1596
+14	403	7881229977941979	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/timer.o	26402f22712ed470
+344	510	7881229979390295	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/uart.o	2d3f3fc57d1c7fe0
+382	540	7881229979556280	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/SysTick_Driver.o	4e98f4f2ae7e2561
+396	553	7881229979639151	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/MC/buffer.o	460165f1ed34deb5
+411	596	7881229980286313	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/main.o	4293a26f39453a0
+549	676	7881229981049507	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/startup_ewarm.o	11ddeb05e1ed89e0
+520	714	7881229981453372	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Obj/Application/state_machine.o	1eac8a4c44ee3732
+723	984	7881229984127743	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/Exe/HMI.out	c174f4a3613e651a

@@ -7,13 +7,18 @@ void EEPROM_Init(void)
         ; // Wait until not working
 }
 
-void EEPROM_WritePassword(const char *pass)
+void EEPROM_WritePassword(volatile uint8_t *pass)
 {
     EEPROM_EEBLOCK_R = 0;  // Use block 0
     EEPROM_EEOFFSET_R = 0; // Start at offset 0
+    unsigned int b0 = pass[0];
+    unsigned int b1 = pass[1];
+    unsigned int b2 = pass[2];
+    unsigned int b3 = pass[3];
+    unsigned int b4 = pass[4];
 
-    unsigned int word1 = (pass[3] << 24) | (pass[2] << 16) | (pass[1] << 8) | pass[0];
-    unsigned int word2 = (0x00 << 24) | (0x00 << 16) | (0x00 << 8) | pass[4];
+    unsigned int word1 = (b3 << 24)|(b2 << 16)|(b1 << 8)|b0;
+    unsigned int word2 = b4;
 
     EEPROM_EERDWR_R = word1;
     while (EEPROM_EEDONE_R & 0x01)
@@ -25,7 +30,7 @@ void EEPROM_WritePassword(const char *pass)
     };
 }
 
-void EEPROM_ReadPassword(char *pass)
+void EEPROM_ReadPassword(uint8_t *pass)
 {
     EEPROM_EEBLOCK_R = 0;
     EEPROM_EEOFFSET_R = 0;
@@ -40,7 +45,7 @@ void EEPROM_ReadPassword(char *pass)
     pass[4] = word2 & 0xFF;
 }
 
-void convertTimeoutToSec(const char *timeoutStr, unsigned int *timeoutSec, unsigned int *result)
+void convertTimeoutToSec(volatile uint8_t *timeoutStr, uint8_t *timeoutSec, uint8_t *result)
 {
     *timeoutSec = 0;
     for (int i = 0; i < TIMEOUT_LENGTH; i++)
@@ -57,7 +62,7 @@ void convertTimeoutToSec(const char *timeoutStr, unsigned int *timeoutSec, unsig
     *result = 1;
 }
 
-void EEPROM_WriteTimeout(const unsigned int *timeoutSec)
+void EEPROM_WriteTimeout(const uint8_t *timeoutSec)
 {
     EEPROM_EEBLOCK_R = 0;
     EEPROM_EEOFFSET_R = 2; // Offset 2 for timeout
@@ -68,7 +73,7 @@ void EEPROM_WriteTimeout(const unsigned int *timeoutSec)
     };
 }
 
-void EEPROM_ReadTimeout(unsigned int *timeoutSec)
+void EEPROM_ReadTimeout(uint8_t *timeoutSec)
 {
     EEPROM_EEBLOCK_R = 0;
     EEPROM_EEOFFSET_R = 2; // Offset 2 for timeout

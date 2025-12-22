@@ -21,7 +21,7 @@ void SysTick_DelayMs(unsigned int ms)
 }
 
 void SysTick_DelayUs(unsigned int us) {
-    unsigned int i;
+  unsigned int i;
     for(i = 0; i < us; i++) {
         NVIC_ST_RELOAD_R = 16 - 1;     // 1µs at 16MHz
         NVIC_ST_CURRENT_R = 0;         // Clear current

@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  10/Dec/2025  21:58:50
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  22/Dec/2025  18:50:53
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -13,26 +13,34 @@
 #        -f "C:\main\Computer Engineering\Level 5\Intro to Embedded
 #        Systems\Project\Control\Debug\Exe\Control.out.rsp" ("C:\main\Computer
 #        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\Control\Debug\Obj\Logic\buffer.o" "C:\main\Computer
+#        Systems\Project\Control\Debug\Obj\Application\buffer.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\Project\Control\Debug\Obj\HW\buzzer.o" "C:\main\Computer
 #        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\Control\Debug\Obj\Drivers\buzzer.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\Control\Debug\Obj\Drivers\eeprom.o" "C:\main\Computer
+#        Systems\Project\Control\Debug\Obj\MC\eeprom.o" "C:\main\Computer
 #        Engineering\Level 5\Intro to Embedded
 #        Systems\Project\Control\Debug\Obj\main.o" "C:\main\Computer
 #        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\Control\Debug\Obj\Drivers\motor.o" "C:\main\Computer
+#        Systems\Project\Control\Debug\Obj\HW\motor.o" "C:\main\Computer
 #        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\Control\Debug\Obj\Logic\passowrd.o" "C:\main\Computer
-#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\Control\Debug\Obj\Application\passowrd.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
 #        Systems\Project\Control\Debug\Obj\startup_ewarm.o" "C:\main\Computer
 #        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\Control\Debug\Obj\Logic\statemachine.o"
+#        Systems\Project\Control\Debug\Obj\Application\statemachine.o"
 #        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\Project\Control\Debug\Obj\Drivers\timer.o" "C:\main\Computer
+#        Systems\Project\Control\Debug\Obj\Tests\test_buzzer.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\Project\Control\Debug\Obj\Tests\test_functions.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\Project\Control\Debug\Obj\Tests\test_motor.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\Project\Control\Debug\Obj\Tests\test_timer.o"
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\Project\Control\Debug\Obj\MC\timer.o" "C:\main\Computer
 #        Engineering\Level 5\Intro to Embedded
-#        Systems\Project\Control\Debug\Obj\Drivers\uart.o" --no_out_extension
-#        -o "C:\main\Computer Engineering\Level 5\Intro to Embedded
+#        Systems\Project\Control\Debug\Obj\MC\uart.o" --no_out_extension -o
+#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
 #        Systems\Project\Control\Debug\Exe\Control.out" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
 #        "C:\main\Computer Engineering\Level 5\Intro to Embedded
@@ -73,55 +81,61 @@ define block HEAP with size = 8K, alignment = 8 { };
 "P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
           rw, block CSTACK, block HEAP };
 do not initialize { rw section .noinit };
+initialize by copy { rw };
 
-  Section          Kind         Address   Size  Object
-  -------          ----         -------   ----  ------
-"A0":                                    0x26c
-  .intvec          const            0x0  0x26c  startup_ewarm.o [1]
-                                - 0x26c  0x26c
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                      0x26c
+  .intvec            const            0x0  0x26c  startup_ewarm.o [1]
+                                  - 0x26c  0x26c
 
-"P1":                                    0x7f4
-  .text            ro code        0x26c  0x1f8  statemachine.o [3]
-  .text            ro code        0x464  0x118  eeprom.o [2]
-  .text            ro code        0x57c   0x24  buffer.o [3]
-  .text            ro code        0x5a0  0x158  uart.o [2]
-  .text            ro code        0x6f8   0x2c  passowrd.o [3]
-  .text            ro code        0x724   0xe8  motor.o [2]
-  .text            ro code        0x80c   0x70  timer.o [2]
-  .text            ro code        0x87c   0x8c  buzzer.o [2]
-  .text            ro code        0x908   0x40  main.o [1]
-  .text            ro code        0x948   0x38  zero_init3.o [6]
-  .text            ro code        0x980   0x28  data_init.o [6]
-  .text            ro code        0x9a8   0x22  fpinit_M.o [5]
-  .iar.init_table  const          0x9cc   0x10  - Linker created -
-  .text            ro code        0x9dc   0x1e  startup_ewarm.o [1]
-  .text            ro code        0x9fc   0x1c  cstartup_M.o [6]
-  .text            ro code        0xa18   0x1e  cmain.o [6]
-  .text            ro code        0xa36    0x4  low_level_init.o [4]
-  .text            ro code        0xa3a    0x4  exit.o [4]
-  .text            ro code        0xa40    0xa  cexit.o [6]
-  .text            ro code        0xa4c   0x14  exit.o [7]
-  .rodata          const          0xa60    0x0  zero_init3.o [6]
-                                - 0xa60  0x7f4
+"P1":                                      0x9d6
+  .text              ro code        0x26c  0x2ec  statemachine.o [2]
+  .text              ro code        0x558   0x10  buffer.o [2]
+  .text              ro code        0x568   0x30  passowrd.o [2]
+  .text              ro code        0x598  0x1ac  uart.o [4]
+  .text              ro code        0x744  0x140  eeprom.o [4]
+  .text              ro code        0x884   0x8c  buzzer.o [3]
+  .text              ro code        0x910   0xec  motor.o [3]
+  .text              ro code        0x9fc   0x70  timer.o [4]
+  .text              ro code        0xa6c   0xb4  main.o [1]
+  .text              ro code        0xb20   0x3a  packbits_init_single.o [8]
+  .text              ro code        0xb5c   0x28  data_init.o [8]
+  .text              ro code        0xb84   0x22  fpinit_M.o [7]
+  .iar.init_table    const          0xba8   0x10  - Linker created -
+  .text              ro code        0xbb8   0x1e  startup_ewarm.o [1]
+  .text              ro code        0xbd8   0x1c  cstartup_M.o [8]
+  .text              ro code        0xbf4   0x1e  cmain.o [8]
+  .text              ro code        0xc12    0x4  low_level_init.o [6]
+  .text              ro code        0xc16    0x4  exit.o [6]
+  .text              ro code        0xc1c    0xa  cexit.o [8]
+  .text              ro code        0xc28   0x14  exit.o [9]
+  .rodata            const          0xc3c    0x0  packbits_init_single.o [8]
+  Initializer bytes  const          0xc3c    0x6  <for P2-1>
+                                  - 0xc42  0x9d6
 
-"P2", part 1 of 2:                        0x14
-  .bss             zero     0x2000'0000    0x8  buffer.o [3]
-  .bss             zero     0x2000'0008    0x4  buffer.o [3]
-  .bss             zero     0x2000'000c    0x4  statemachine.o [3]
-  .bss             zero     0x2000'0010    0x1  statemachine.o [3]
-  .bss             zero     0x2000'0011    0x1  statemachine.o [3]
-                          - 0x2000'0012   0x12
+"P2", part 1 of 2:                          0x1b
+  P2-1                        0x2000'0000   0x1b  <Init block>
+    .bss             inited   0x2000'0000    0x8  buffer.o [2]
+    .bss             inited   0x2000'0008    0x4  statemachine.o [2]
+    .bss             inited   0x2000'000c    0x8  statemachine.o [2]
+    .bss             inited   0x2000'0014    0x4  statemachine.o [2]
+    .data            inited   0x2000'0018    0x1  statemachine.o [2]
+    .bss             inited   0x2000'0019    0x1  buffer.o [2]
+    .bss             inited   0x2000'001a    0x1  statemachine.o [2]
+                            - 0x2000'001b   0x1b
 
-"P2", part 2 of 2:                       0x200
-  .noinit          uninit   0x2000'0014  0x200  startup_ewarm.o [1]
-                          - 0x2000'0214  0x200
+"P2", part 2 of 2:                         0x200
+  .noinit            uninit   0x2000'001c  0x200  startup_ewarm.o [1]
+                            - 0x2000'021c  0x200
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0xa60     0x3'ffff  0x3'f5a0
-  0x2000'0214  0x2000'7fff    0x7dec
+        0xc42     0x3'ffff  0x3'f3be
+  0x2000'001b  0x2000'001b       0x1
+  0x2000'021c  0x2000'7fff    0x7de4
 
 
 *******************************************************************************
@@ -130,9 +144,11 @@ Unused ranges:
 
           Address      Size
           -------      ----
-Zero (__iar_zero_init3)
-    1 destination range, total size 0x12:
-          0x2000'0000  0x12
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x6 (22% of destination):
+                0xc3c   0x6
+    1 destination range, total size 0x1b:
+          0x2000'0000  0x1b
 
 
 
@@ -140,63 +156,71 @@ Zero (__iar_zero_init3)
 *** MODULE SUMMARY
 ***
 
-    Module            ro code  ro data  rw data
-    ------            -------  -------  -------
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
 command line/config:
-    -------------------------------------------
+    -------------------------------------------------
     Total:
 
 C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj: [1]
-    main.o                 64
-    startup_ewarm.o        30      620      512
-    -------------------------------------------
-    Total:                 94      620      512
+    main.o                      180
+    startup_ewarm.o              30      620      512
+    -------------------------------------------------
+    Total:                      210      620      512
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\Drivers: [2]
-    buzzer.o              140
-    eeprom.o              280
-    motor.o               232
-    timer.o               112
-    uart.o                344
-    -------------------------------------------
-    Total:              1'108
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\Application: [2]
+    buffer.o                     16        1        9
+    passowrd.o                   48
+    statemachine.o              748        5       18
+    -------------------------------------------------
+    Total:                      812        6       27
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\Logic: [3]
-    buffer.o               36                12
-    passowrd.o             44
-    statemachine.o        504                 6
-    -------------------------------------------
-    Total:                584                18
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\HW: [3]
+    buzzer.o                    140
+    motor.o                     236
+    -------------------------------------------------
+    Total:                      376
 
-dl7M_tln.a: [4]
-    exit.o                  4
-    low_level_init.o        4
-    -------------------------------------------
-    Total:                  8
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\MC: [4]
+    eeprom.o                    320
+    timer.o                     112
+    uart.o                      428
+    -------------------------------------------------
+    Total:                      860
 
-m7M_tls.a: [5]
-    fpinit_M.o             34
-    -------------------------------------------
-    Total:                 34
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\Tests: [5]
+    -------------------------------------------------
+    Total:
 
-rt7M_tl.a: [6]
-    cexit.o                10
-    cmain.o                30
-    cstartup_M.o           28
-    data_init.o            40
-    zero_init3.o           56
-    -------------------------------------------
-    Total:                164
+dl7M_tln.a: [6]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
 
-shb_l.a: [7]
-    exit.o                 20
-    -------------------------------------------
-    Total:                 20
+m7M_tls.a: [7]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
 
-    Gaps                    6        2
-    Linker created                  16
------------------------------------------------
-    Grand Total:        2'018      638      530
+rt7M_tl.a: [8]
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    packbits_init_single.o       58
+    -------------------------------------------------
+    Total:                      166
+
+shb_l.a: [9]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          8        2
+    Linker created                        16
+-----------------------------------------------------
+    Grand Total:              2'494      644      539
 
 
 *******************************************************************************
@@ -205,70 +229,75 @@ shb_l.a: [7]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0x9cc          --   Gb  - Linker created -
-.iar.init_table$$Limit        0x9dc          --   Gb  - Linker created -
-?main                         0xa19         Code  Gb  cmain.o [6]
-BUFFER                  0x2000'0000    0x8  Data  Gb  buffer.o [3]
-Buzzer_Init                   0x893   0x2e  Code  Gb  buzzer.o [2]
-Buzzer_ON                     0x8f1   0x18  Code  Gb  buzzer.o [2]
-Buzzer_Output                 0x8c1   0x20  Code  Gb  buzzer.o [2]
-EEPROM_Init                   0x465   0x16  Code  Gb  eeprom.o [2]
-EEPROM_ReadPassword           0x4c1   0x32  Code  Gb  eeprom.o [2]
-EEPROM_ReadTimeout            0x54b   0x1c  Code  Gb  eeprom.o [2]
-EEPROM_WritePassword          0x47b   0x46  Code  Gb  eeprom.o [2]
-EEPROM_WriteTimeout           0x52f   0x1c  Code  Gb  eeprom.o [2]
-FaultISR                      0x9f7    0x2  Code  Lc  startup_ewarm.o [1]
-IntDefaultHandler             0x9f9    0x2  Code  Lc  startup_ewarm.o [1]
-NmiSR                         0x9f5    0x2  Code  Lc  startup_ewarm.o [1]
-Region$$Table$$Base           0x9cc          --   Gb  - Linker created -
-Region$$Table$$Limit          0x9dc          --   Gb  - Linker created -
-ResetBuffer                   0x57d   0x24  Code  Gb  buffer.o [3]
-ResetISR                      0x9dd   0x14  Code  Gb  startup_ewarm.o [1]
-StateMachine                  0x26d  0x1f8  Code  Gb  statemachine.o [3]
-Timer0A_DelayMs               0x835   0x28  Code  Gb  timer.o [2]
-Timer0A_Init                  0x80d   0x28  Code  Gb  timer.o [2]
-UART0IntHandler               0x661   0x50  Code  Gb  uart.o [2]
-UART0_Init                    0x5b7   0x82  Code  Gb  uart.o [2]
-UART0_Send_String             0x64b   0x16  Code  Gb  uart.o [2]
-UART0_Transmit                0x639   0x12  Code  Gb  uart.o [2]
-__cmain                       0xa19         Code  Gb  cmain.o [6]
-__exit                        0xa4d   0x14  Code  Gb  exit.o [7]
-__iar_data_init3              0x981   0x28  Code  Gb  data_init.o [6]
-__iar_init_vfp                0x9a9         Code  Gb  fpinit_M.o [5]
-__iar_program_start           0x9fd         Code  Gb  cstartup_M.o [6]
-__iar_zero_init3              0x949   0x38  Code  Gb  zero_init3.o [6]
-__low_level_init              0xa37    0x4  Code  Gb  low_level_init.o [4]
+.iar.init_table$$Base         0xba8          --   Gb  - Linker created -
+.iar.init_table$$Limit        0xbb8          --   Gb  - Linker created -
+?main                         0xbf5         Code  Gb  cmain.o [8]
+BUFFER                  0x2000'0000    0x8  Data  Gb  buffer.o [2]
+Buzzer_Init                   0x89b   0x2e  Code  Gb  buzzer.o [3]
+Buzzer_ON                     0x8f9   0x18  Code  Gb  buzzer.o [3]
+Buzzer_Output                 0x8c9   0x20  Code  Gb  buzzer.o [3]
+EEPROM_Init                   0x745   0x24  Code  Gb  eeprom.o [4]
+EEPROM_ReadPassword           0x7c9   0x32  Code  Gb  eeprom.o [4]
+EEPROM_ReadTimeout            0x855   0x1c  Code  Gb  eeprom.o [4]
+EEPROM_WritePassword          0x769   0x60  Code  Gb  eeprom.o [4]
+EEPROM_WriteTimeout           0x839   0x1c  Code  Gb  eeprom.o [4]
+FaultISR                      0xbd3    0x2  Code  Lc  startup_ewarm.o [1]
+IntDefaultHandler             0xbd5    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                         0xbd1    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base           0xba8          --   Gb  - Linker created -
+Region$$Table$$Limit          0xbb8          --   Gb  - Linker created -
+ResetBuffer                   0x559   0x10  Code  Gb  buffer.o [2]
+ResetISR                      0xbb9   0x14  Code  Gb  startup_ewarm.o [1]
+StackPaint                    0xa83   0x14  Code  Gb  main.o [1]
+StateMachine                  0x26d  0x2ec  Code  Gb  statemachine.o [2]
+Timer0A_DelayMs               0xa25   0x28  Code  Gb  timer.o [4]
+Timer0A_Init                  0x9fd   0x28  Code  Gb  timer.o [4]
+UART0IntHandler               0x67b   0x76  Code  Gb  uart.o [4]
+UART0_Init                    0x599   0x9e  Code  Gb  uart.o [4]
+UART0_Send_String             0x665   0x16  Code  Gb  uart.o [4]
+UART0_Transmit                0x637   0x2e  Code  Gb  uart.o [4]
+__cmain                       0xbf5         Code  Gb  cmain.o [8]
+__exit                        0xc29   0x14  Code  Gb  exit.o [9]
+__iar_data_init3              0xb5d   0x28  Code  Gb  data_init.o [8]
+__iar_init_vfp                0xb85         Code  Gb  fpinit_M.o [7]
+__iar_packbits_init_single3
+                              0xb21   0x3a  Code  Gb  packbits_init_single.o [8]
+__iar_program_start           0xbd9         Code  Gb  cstartup_M.o [8]
+__low_level_init              0xc13    0x4  Code  Gb  low_level_init.o [6]
 __vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
-_call_main                    0xa25         Code  Gb  cmain.o [6]
-_exit                         0xa41         Code  Gb  cexit.o [6]
-bufferIndex             0x2000'0008    0x4  Data  Gb  buffer.o [3]
-close_Door                    0x7d7    0xa  Code  Gb  motor.o [2]
-comparePassword               0x6f9   0x2c  Code  Gb  passowrd.o [3]
-convertTimeoutToSec           0x4f3   0x3c  Code  Gb  eeprom.o [2]
-currentAction           0x2000'0011    0x1  Data  Gb  statemachine.o [3]
-currentState            0x2000'0010    0x1  Data  Gb  statemachine.o [3]
-enable_gpio                   0x87d   0x16  Code  Lc  buzzer.o [2]
-enable_gpio                   0x909   0x16  Code  Lc  main.o [1]
-enable_gpio                   0x5a1   0x16  Code  Lc  uart.o [2]
-exit                          0xa3b    0x4  Code  Gb  exit.o [4]
-failCount               0x2000'000c    0x4  Data  Gb  statemachine.o [3]
-initialize_motor              0x725   0xa8  Code  Gb  motor.o [2]
-main                          0x925   0x24  Code  Gb  main.o [1]
-open_Door                     0x7cd    0xa  Code  Gb  motor.o [2]
-pui32Stack              0x2000'0014  0x200  Data  Lc  startup_ewarm.o [1]
+_call_main                    0xc01         Code  Gb  cmain.o [8]
+_exit                         0xc1d         Code  Gb  cexit.o [8]
+bufferIndex             0x2000'0019    0x1  Data  Gb  buffer.o [2]
+close_Door                    0x9c5    0xa  Code  Gb  motor.o [3]
+comparePassword               0x569   0x30  Code  Gb  passowrd.o [2]
+convertTimeoutToSec           0x7fb   0x3e  Code  Gb  eeprom.o [4]
+correctPassword         0x2000'000c    0x8  Data  Gb  statemachine.o [2]
+currentAction           0x2000'001a    0x1  Data  Gb  statemachine.o [2]
+currentState            0x2000'0018    0x1  Data  Gb  statemachine.o [2]
+enable_gpio                   0x885   0x16  Code  Lc  buzzer.o [3]
+enable_gpio                   0xa6d   0x16  Code  Lc  main.o [1]
+exit                          0xc17    0x4  Code  Gb  exit.o [6]
+failCount               0x2000'0008    0x4  Data  Gb  statemachine.o [2]
+initialize_motor              0x911   0xaa  Code  Gb  motor.o [3]
+isChecking              0x2000'0014    0x4  Data  Gb  statemachine.o [2]
+main                          0xa99   0x70  Code  Gb  main.o [1]
+open_Door                     0x9bb    0xa  Code  Gb  motor.o [3]
+pui32Stack              0x2000'001c  0x200  Data  Lc  startup_ewarm.o [1]
 
 
 [1] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj
-[2] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\Drivers
-[3] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\Logic
-[4] = dl7M_tln.a
-[5] = m7M_tls.a
-[6] = rt7M_tl.a
-[7] = shb_l.a
+[2] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\Application
+[3] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\HW
+[4] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\MC
+[5] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\Control\Debug\Obj\Tests
+[6] = dl7M_tln.a
+[7] = m7M_tls.a
+[8] = rt7M_tl.a
+[9] = shb_l.a
 
-  2'018 bytes of readonly  code memory
-    638 bytes of readonly  data memory
-    530 bytes of readwrite data memory
+  2'494 bytes of readonly  code memory
+    644 bytes of readonly  data memory
+    539 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

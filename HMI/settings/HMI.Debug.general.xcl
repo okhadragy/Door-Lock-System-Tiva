@@ -1,10 +1,14 @@
 "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armPROC.dll" 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armSIM2.dll" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armLMIFTDI.dll" 
 
-"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Exe\HMI.out" 
+"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Exe\HMI.out" 
 
 --plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\flashloader\TexasInstruments\FlashTC4_H6_o.board" 
 
 
 

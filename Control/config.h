@@ -2,6 +2,7 @@
 #define CONFIG_H
 
 #include "tm4c123gh6pm.h"
+#include <stdint.h>
 
 #define GPIO_PORTA   (1U << 0)
 #define GPIO_PORTB   (1U << 1)
@@ -19,7 +20,7 @@
 
 // Configurable parameters
 #define PASSWORD_LENGTH 5
-#define TIMEOUT_LENGTH 4
+#define TIMEOUT_LENGTH 2
 #define MAX_FAILS 3
 typedef enum {
     STATE_INIT,
@@ -32,6 +33,7 @@ typedef enum {
 } SystemState;
 
 typedef enum {
+    ACTION_INIT,
     ACTION_OPEN_DOOR,
     ACTION_CHANGE_PASSWORD,
     ACTION_SET_TIMEOUT,

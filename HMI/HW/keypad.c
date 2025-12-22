@@ -62,6 +62,7 @@ unsigned char readKeypad(void)
 
 
 
-bool isAction(unsigned char press){
-    return((press=='A')||(press=='B')||(press=='*'));
-}
+/* Removed unused function isAction()
+ * Reason: Function was never called.
+ * Fix: Deleted to comply with MISRA Rule 2.2
+ */

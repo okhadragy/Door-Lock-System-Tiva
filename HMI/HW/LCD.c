@@ -2,8 +2,6 @@
 #include <stdint.h>
 #include "../MC/SysTick_Driver.h"
 
-
-
 void LCD_enablePulse() {
     // Generate Enable pulse for LCD
     GPIO_PORTA_DATA_R |= (1<<3);   // EN = 1
@@ -56,7 +54,7 @@ void LCD_data(uint8_t data) {
 
 
 
-void LCD_printString(char *str)
+void LCD_printString(const char *str)
 {
     uint8_t count = 0;   
 
@@ -76,6 +74,7 @@ void LCD_printString(char *str)
         str++;
     }
 }
+/*
 void LCD_writeOrMenu(char *data) {
     if (data != 0) {
         // If string is provided, write it
@@ -97,7 +96,53 @@ void LCD_writeOrMenu(char *data) {
         LCD_command(0xCA);
         LCD_data('*');
     }
+}*/
+
+//scroll added
+
+#include "../MC/SysTick_Driver.h"
+#include <string.h>
+
+void LCD_writeOrMenu(const char *data) {
+    if (data != 0) {
+        // If string is provided, handle scrolling if longer than 16 chars
+        uint8_t len = strlen(data);
+        if(len <= 16) {
+            // fits in one line, print normally
+            LCD_command(0x80);  // first row
+            SysTick_DelayMs(2);
+            for(uint8_t i = 0; i < len; i++) {
+                LCD_data(data[i]);
+            }
+        } else {
+            // Scroll the text
+            for(uint8_t start = 0; start <= len - 16; start++) {
+                LCD_command(0x80);  // move cursor to first row
+                SysTick_DelayMs(2);
+                for(uint8_t i = 0; i < 16; i++) {
+                    LCD_data(data[start + i]);
+                }
+                SysTick_DelayMs(300); // delay between scroll steps
+            }
+        }
+    } else {
+        // default menu display
+        LCD_command(0x01);       // Clear display
+        SysTick_DelayMs(2);
+
+        // First line
+        LCD_printString("MENU:");
+
+        // Move to second line
+        LCD_command(0xC0);       // 0xC0 = address of second line
+        LCD_data('+');
+        LCD_command(0xC5);
+        LCD_data('-');
+        LCD_command(0xCA);
+        LCD_data('*');
+    }
 }
+
 // ---------- INITIALIZATION ----------
 
 void LCD_init() {
@@ -137,4 +182,5 @@ void LCD_init() {
     SysTick_DelayMs(2);            // Clear requires ~2ms
     LCD_command(0x06);             // Entry mode, cursor moves right
 }
+
 

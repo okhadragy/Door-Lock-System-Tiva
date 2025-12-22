@@ -19,7 +19,7 @@
 
 // Configurable parameters
 #define PASSWORD_LENGTH 5
-#define TIMEOUT_LENGTH 4
+#define TIMEOUT_LENGTH 2
 #define MAX_FAILS 3
 typedef enum {
     STATE_INIT,
