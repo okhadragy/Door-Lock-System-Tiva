@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\settings\HMI.Debug.general.xcl" --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\settings\HMI.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\settings\HMI.Debug.general.xcl" --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\settings\HMI.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\settings\HMI.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\settings\HMI.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\settings\HMI.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\settings\HMI.Debug.driver.xcl" 
 
 @echo off 
 :end

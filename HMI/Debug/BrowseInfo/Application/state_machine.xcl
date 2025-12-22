@@ -1,15 +1,15 @@
-"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Application\state_machine.c"
+"C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Application\state_machine.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\BrowseInfo\Application\state_machine.pbi.dep
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.pbi.dep
 -o
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\BrowseInfo\Application\state_machine.pbi
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\BrowseInfo\Application\state_machine.pbi
 -I
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Application
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Application
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I

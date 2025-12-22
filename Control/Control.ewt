@@ -2842,27 +2842,6 @@
         </settings>
     </configuration>
     <group>
-        <name>Application</name>
-        <file>
-            <name>$PROJ_DIR$\Application\buffer.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Application\buffer.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Application\passowrd.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Application\password.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Application\statemachine.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Application\statemachine.h</name>
-        </file>
-    </group>
-    <group>
         <name>HW</name>
         <file>
             <name>$PROJ_DIR$\HW\buzzer.c</name>
@@ -2875,6 +2854,27 @@
         </file>
         <file>
             <name>$PROJ_DIR$\HW\motor.h</name>
+        </file>
+    </group>
+    <group>
+        <name>MC</name>
+        <file>
+            <name>$PROJ_DIR$\MC\eeprom.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MC\eeprom.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MC\timer.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MC\timer.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MC\uart.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MC\uart.h</name>
         </file>
     </group>
     <group>
@@ -3211,24 +3211,24 @@
         </file>
     </group>
     <group>
-        <name>MC</name>
+        <name>Application</name>
         <file>
-            <name>$PROJ_DIR$\MC\eeprom.c</name>
+            <name>$PROJ_DIR$\Application\buffer.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\MC\eeprom.h</name>
+            <name>$PROJ_DIR$\Application\buffer.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\MC\timer.c</name>
+            <name>$PROJ_DIR$\Application\passowrd.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\MC\timer.h</name>
+            <name>$PROJ_DIR$\Application\password.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\MC\uart.c</name>
+            <name>$PROJ_DIR$\Application\statemachine.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\MC\uart.h</name>
+            <name>$PROJ_DIR$\Application\statemachine.h</name>
         </file>
     </group>
     <group>

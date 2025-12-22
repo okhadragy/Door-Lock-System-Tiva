@@ -5,99 +5,91 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\HW\keypad.h</file>
-            <file>$PROJ_DIR$\HW\LCD.c</file>
-            <file>$PROJ_DIR$\HW\LCD.h</file>
-            <file>$PROJ_DIR$\Application\state_machine.h</file>
-            <file>$PROJ_DIR$\HW\potentiometer.h</file>
             <file>$PROJ_DIR$\Application\state_machine.c</file>
-            <file>$PROJ_DIR$\HW\potentiometer.c</file>
-            <file>$PROJ_DIR$\HW\keypad.c</file>
+            <file>$PROJ_DIR$\HW\LCD.h</file>
+            <file>$PROJ_DIR$\HW\potentiometer.h</file>
+            <file>$PROJ_DIR$\HW\LCD.c</file>
+            <file>$PROJ_DIR$\Application\state_machine.h</file>
             <file>$PROJ_DIR$\inc\hw_nvic.h</file>
+            <file>$PROJ_DIR$\HW\keypad.c</file>
+            <file>$PROJ_DIR$\HW\keypad.h</file>
+            <file>$PROJ_DIR$\HW\potentiometer.c</file>
             <file>$PROJ_DIR$\inc\hw_types.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MC\uart.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\HMI.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MC\SysTick_Driver.o</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\MC\SysTick_Driver.h</file>
-            <file>$PROJ_DIR$\MC\timer.c</file>
-            <file>$PROJ_DIR$\config.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$PROJ_DIR$\MC\Common_Macros.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-            <file>$PROJ_DIR$\startup_ewarm.c</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HW\LCD.o</file>
-            <file>$PROJ_DIR$\MC\UART_DRIVER.C</file>
-            <file>$PROJ_DIR$\MC\buffer.c</file>
-            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\MC\SysTick_Driver.c</file>
-            <file>$PROJ_DIR$\MC\uart.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\MC\timer.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\MC\UART_DRIVER.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\HW\keypad.o</file>
-            <file>$PROJ_DIR$\Debug\List\HMI.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\MC\buffer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MC\SysTick_Driver.o</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\Debug\Obj\Application\state_machine.o</file>
-            <file>$PROJ_DIR$\MC\buffer.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HW\potentiometer.o</file>
-            <file>$PROJ_DIR$\MC\uart.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\registers.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\MC\SysTick_Driver.h</file>
+            <file>$PROJ_DIR$\MC\buffer.c</file>
+            <file>$PROJ_DIR$\MC\timer.c</file>
+            <file>$PROJ_DIR$\MC\uart.c</file>
+            <file>$PROJ_DIR$\MC\uart.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\HW\LCD.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\MC\Common_Macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MC\timer.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\config.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\MC\UART_DRIVER.o</file>
+            <file>$PROJ_DIR$\startup_ewarm.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\MC\buffer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MC\uart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HW\potentiometer.o</file>
+            <file>$PROJ_DIR$\MC\UART_DRIVER.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\MC\buffer.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HW\keypad.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\HMI.out</file>
+            <file>$PROJ_DIR$\Debug\List\HMI.map</file>
         </outputs>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\Application\state_machine.c</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 11 39</file>
+                    <name>ICCARM</name>
+                    <file> 13</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49 14 39 26 46 35 28 16 42 4 1 7 2 17 38 21 29 37</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\HW\LCD.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30</file>
+                    <file> 23</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 50 49 46 24 27 23 42 13 14 17 28</file>
+                    <file> 49 14 39 26 46 35 28 16 42 17 37</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Application\state_machine.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 43</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 50 49 46 24 27 23 42 13 14 3 2 0 4 17 44 48 19 28</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HW\potentiometer.c</name>
+            <name>$PROJ_DIR$\HW\keypad.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -107,37 +99,61 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 4 19 28</file>
+                    <file> 49 14 39 30 46 28 42 7 17 37</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\HW\keypad.c</name>
+            <name>$PROJ_DIR$\HW\potentiometer.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 38</file>
+                    <file> 43</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 50 49 46 29 27 42 14 0 17 28</file>
+                    <file> 2 29 37</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\HMI.out</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 39</file>
+                    <file> 50 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MC\SysTick_Driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 26 16 20 45 41 43 30 38 47 15 40 36 10 22 12</file>
+                    <name>ICCARM</name>
+                    <file> 17 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MC\buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 29 37</file>
                 </tool>
             </inputs>
         </file>
@@ -146,48 +162,48 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 36</file>
+                    <file> 27</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 28</file>
+                    <file> 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MC\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49 14 39 46 28 42 17 38 21 29 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49 14 39 46 28 42 4 1 7 2 17 38 21 29 37</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\startup_ewarm.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 50 49 46 27 42 14 8 9</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MC\UART_DRIVER.C</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 37</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 21 44 28</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MC\buffer.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -197,52 +213,37 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 44 19 28</file>
+                    <file> 49 14 39 46 28 42 5 9</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\main.c</name>
+            <name>$PROJ_DIR$\MC\UART_DRIVER.C</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 22</file>
+                    <file> 33</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 50 49 46 27 42 14 3 2 0 4 17 44 48 19 28</file>
+                    <file> 25 38 37</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\MC\SysTick_Driver.c</name>
+            <name>$PROJ_DIR$\Debug\Exe\HMI.out</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 15</file>
+                    <name>ILINK</name>
+                    <file> 51</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 17 28</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MC\uart.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 50 49 46 27 42 14 17 44 48 19 28</file>
+                    <name>ILINK</name>
+                    <file> 36 32 48 31 12 13 23 47 43 11 45 27 41 24 40</file>
                 </tool>
             </inputs>
         </file>

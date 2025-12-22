@@ -1,59 +1,43 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  22/Dec/2025  18:09:58
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  22/Dec/2025  18:58:24
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
 #        C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Exe\HMI.out
+#        Systems\Project\HMI\Debug\Exe\HMI.out
 #    Map file     =
 #        C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\List\HMI.map
+#        Systems\Project\HMI\Debug\List\HMI.map
 #    Command line =
 #        -f "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Exe\HMI.out.rsp"
-#        ("C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC\buffer.o"
+#        Systems\Project\HMI\Debug\Exe\HMI.out.rsp" ("C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\MC\buffer.o" "C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\HW\keypad.o" "C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\HW\LCD.o" "C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\main.o" "C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\HW\potentiometer.o" "C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\startup_ewarm.o" "C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\Application\state_machine.o"
 #        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW\keypad.o"
+#        Systems\Project\HMI\Debug\Obj\MC\SysTick_Driver.o" "C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\MC\timer.o" "C:\main\Computer
+#        Engineering\Level 5\Intro to Embedded
+#        Systems\Project\HMI\Debug\Obj\MC\uart.o" --no_out_extension -o
 #        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW\LCD.o"
-#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\main.o"
-#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW\potentiometer.o"
-#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\startup_ewarm.o"
-#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\Application\state_machine.o"
-#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC\SysTick_Driver.o"
-#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC\timer.o"
-#        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC\uart.o"
-#        --no_out_extension -o "C:\main\Computer Engineering\Level 5\Intro to
-#        Embedded Systems\FINAL_MORSI
-#        (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Exe\HMI.out" --redirect
+#        Systems\Project\HMI\Debug\Exe\HMI.out" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
 #        "C:\main\Computer Engineering\Level 5\Intro to Embedded
-#        Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main
-#        UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\List\HMI.map" --config
-#        "C:\Program Files\IAR Systems\Embedded Workbench
+#        Systems\Project\HMI\Debug\List\HMI.map" --config "C:\Program Files\IAR
+#        Systems\Embedded Workbench
 #        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
 #
@@ -201,25 +185,25 @@ command line/config:
     ------------------------------------------------
     Total:
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj: [1]
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj: [1]
     main.o                      70
     startup_ewarm.o             30      620      512
     ------------------------------------------------
     Total:                     100      620      512
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\Application: [2]
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\Application: [2]
     state_machine.o          1'948      164       14
     ------------------------------------------------
     Total:                   1'948      164       14
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW: [3]
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\HW: [3]
     LCD.o                      624        8
     keypad.o                   260       20
     potentiometer.o            216
     ------------------------------------------------
     Total:                   1'100       28
 
-C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC: [4]
+C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\MC: [4]
     SysTick_Driver.o           108
     buffer.o                    36                12
     uart.o                     340
@@ -389,10 +373,10 @@ strchr                       0x118d         Code  Gb  strchr.o [7]
 strlen                       0x11e5         Code  Gb  strlen.o [7]
 
 
-[1] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj
-[2] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\Application
-[3] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\HW
-[4] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\FINAL_MORSI (1)\FINAL_MORSI\Door-Lock-System-Tiva-main  UPDATED\Door-Lock-System-Tiva-main\HMI\Debug\Obj\MC
+[1] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj
+[2] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\Application
+[3] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\HW
+[4] = C:\main\Computer Engineering\Level 5\Intro to Embedded Systems\Project\HMI\Debug\Obj\MC
 [5] = dl7M_tln.a
 [6] = m7M_tls.a
 [7] = rt7M_tl.a

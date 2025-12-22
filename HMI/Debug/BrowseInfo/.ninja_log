@@ -123,3 +123,19 @@
 1938	2012	7881220000008503	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/BrowseInfo/HMI_part1.pbi	e1b5c99a0488fbf3
 2020	2080	7881220000621777	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/BrowseInfo/HMI.pbd	9fb7795bb6d5f360
 2091	3116	7881220010697002	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/FINAL_MORSI (1)/FINAL_MORSI/Door-Lock-System-Tiva-main  UPDATED/Door-Lock-System-Tiva-main/HMI/Debug/BrowseInfo/HMI.pbw	5393e345d28a2c65
+16	213	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/Application/state_machine.xcl	24033a30467d7670
+24	228	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/HW/LCD.xcl	97f9c1698dd1422b
+32	241	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/HW/keypad.xcl	5125042d5a5630ed
+39	254	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/MC/timer.xcl	f7984f77dcc87a4f
+223	381	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/MC/uart.xcl	25703b554407a8f5
+236	400	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/MC/SysTick_Driver.xcl	c1b8f9845edd569f
+249	420	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/HW/potentiometer.xcl	fe8586acda13be5c
+262	432	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/MC/buffer.xcl	98650ee6319596b2
+428	558	7881259029473374	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/HW/potentiometer.pbi	356ca4ad13d7c37
+408	569	7881259020000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/startup_ewarm.xcl	3c3e84857e13f3f1
+440	581	7881259029576964	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/HW/keypad.pbi	d6133489dedababa
+389	590	7881259029657031	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/HW/LCD.pbi	ed037ddb396967f5
+586	726	7881259031149525	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/MC/buffer.pbi	a22455186c457fbe
+595	738	7881259031261750	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/MC/timer.pbi	95af8d5f1084841d
+564	747	7881259030000000	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/main.xcl	1e212a6868f22a70
+577	789	7881259031565048	C:/main/Computer Engineering/Level 5/Intro to Embedded Systems/Project/HMI/Debug/BrowseInfo/Application/state_machine.pbi	85ab09f68176d58f
